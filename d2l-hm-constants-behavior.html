@@ -1,0 +1,44 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<script>
+	'use strict';
+
+	window.D2L = window.D2L || {};
+	window.D2L.Hypermedia = window.D2L.Hypermedia || {};
+	/*
+	* General constants used for the navigation of Hypermedia
+	* @polymerBehavior window.D2L.Hypermedia.HMConstantsBehavior
+	*/
+	window.D2L.Hypermedia.HMConstantsBehavior = {
+		HypermediaRels: {
+			displayName: 'https://api.brightspace.com/rels/display-name',
+			myEnrollments: 'https://api.brightspace.com/rels/my-enrollments',
+			organization: 'https://api.brightspace.com/rels/organization',
+			organizations: 'https://api.brightspace.com/rels/organizations',
+			profileImage: 'https://api.brightspace.com/rels/profile-image',
+			root: 'https://api.brightspace.com/rels/root',
+			thumbnailRegular: 'https://api.brightspace.com/rels/thumbnail#regular',
+			thumbnailSmall: 'https://api.brightspace.com/rels/thumbnail#small',
+			userProfile: 'https://api.brightspace.com/rels/user-profile'
+		},
+		HypermediaClasses: {
+			courseImage: {
+				courseImage: 'course-image',
+				banner: 'banner',
+				tile: 'tile',
+				wide: 'wide',
+				narrow: 'narrow',
+				min: 'min',
+				mid: 'mid',
+				max: 'max',
+				high: 'high',
+				low: 'low'
+			}
+		},
+		HypermediaActions: {
+			enrollments: {
+				searchMyEnrollments: 'search-my-enrollments'
+			}
+		}
+	}
+</script>

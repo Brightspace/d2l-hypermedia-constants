@@ -1,0 +1,33 @@
+{
+  "name": "d2l-hm-constants-behavior",
+  "description": "Brightspace HM Constants Behavior",
+  "authors": [
+    "D2L Corporation"
+  ],
+  "license": "Apache-2.0",
+  "keywords": [
+    "d2l",
+  	"hypermedia",
+  	"constants",
+    "behavior"
+  ],
+  "homepage": "https://github.com/Brightspace/d2l-hm-constants-behavior",
+  "main": "d2l-hm-constants-behavior.html",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    ".editorconfig",
+    ".eslintrc",
+    ".gitignore",
+    ".travis.yml",
+    "package.json",
+    "test",
+    "tests",
+    "/demo/"
+  ],
+  "dependencies": {
+    "polymer": "^1.7.0"
+  }
+}
