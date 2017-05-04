@@ -8,7 +8,7 @@ For further information on this and other D2L UI components, see the docs at [ui
 
 `d2l-hm-constants-behavior` can be installed from Bower:
 ```shell
-bower install git://github.com/Brightspace/d2l-hm-constants-behavior.git#v1.0.0
+bower install git://github.com/Brightspace/d2l-hm-constants-behavior.git#^1.0.0
 ```
 
 ## Usage
