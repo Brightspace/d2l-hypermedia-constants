@@ -12,6 +12,8 @@
 	window.D2L.Hypermedia.HMConstantsBehavior = {
 		HypermediaRels: {
 			// default Brightspace domain rels
+			activityUsage: 'https://api.brightspace.com/rels/activity-usage',
+			assignment: 'https://api.brightspace.com/rels/assignment',
 			displayName: 'https://api.brightspace.com/rels/display-name',
 			firstName: 'https://api.brightspace.com/rels/first-name',
 			myEnrollments: 'https://api.brightspace.com/rels/my-enrollments',
@@ -27,6 +29,10 @@
 			userProfile: 'https://api.brightspace.com/rels/user-profile',
 			user: 'https://api.brightspace.com/rels/user',
 			whoami: 'https://api.brightspace.com/rels/whoami',
+			// Activities API sub-domain rels
+			Activities: {
+				myActivities: 'https://activities.api.brightspace.com/rels/my-activities'
+			},
 			// Parents api sub-domain rels
 			Parents: {
 				allChildren: 'https://parents.api.brightspace.com/rels/all-my-children'
