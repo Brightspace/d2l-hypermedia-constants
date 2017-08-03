@@ -13,14 +13,19 @@
 		HypermediaRels: {
 			// default Brightspace domain rels
 			assignment: 'https://api.brightspace.com/rels/assignment',
+			courseOfferingInfoPage: 'https://api.brightspace.com/rels/course-offering-info-page',
+			departments: 'https://api.brightspace.com/rels/departments',
 			displayName: 'https://api.brightspace.com/rels/display-name',
 			firstName: 'https://api.brightspace.com/rels/first-name',
 			myEnrollments: 'https://api.brightspace.com/rels/my-enrollments',
 			userEnrollment: 'https://api.brightspace.com/rels/user-enrollment',
 			organization: 'https://api.brightspace.com/rels/organization',
+			organizationHomepage: 'https://api.brightspace.com/rels/organization-homepage',
+			organizationNotifications: 'https://api.brightspace.com/rels/organization-notifications',
 			organizations: 'https://api.brightspace.com/rels/organizations',
 			profileImage: 'https://api.brightspace.com/rels/profile-image',
 			root: 'https://api.brightspace.com/rels/root',
+			semesters: 'https://api.brightspace.com/rels/semesters',
 			theme: 'https://themes.api.brightspace.com/rels/theme',
 			themeLogo: 'https://themes.api.brightspace.com/rels/logo',
 			thumbnailRegular: 'https://api.brightspace.com/rels/thumbnail#regular',
@@ -61,11 +66,28 @@
 				max: 'max',
 				high: 'high',
 				low: 'low'
+			},
+			enrollments: {
+				enrollment: 'enrollment',
+				pinned: 'pinned',
+				unpinned: 'unpinned'
 			}
 		},
 		HypermediaActions: {
 			enrollments: {
-				searchMyEnrollments: 'search-my-enrollments'
+				addDepartmentFilter: 'add-department-filter',
+				addSemesterFilter: 'add-semester-filter',
+				pinCourse: 'pin-course',
+				removeDepartmentFilter: 'remove-department-filter',
+				removeSemesterFilter: 'remove-semester-filter',
+				searchMyEnrollments: 'search-my-enrollments',
+				searchMyDepartments: 'search-my-departments',
+				searchMySemesters: 'search-my-semesters',
+				unpinCourse: 'unpin-course'
+			},
+			organizations: {
+				removeHomepageBanner: 'remove-homepage-banner',
+				setCatalogImage: 'set-catalog-image'
 			}
 		}
 	}
