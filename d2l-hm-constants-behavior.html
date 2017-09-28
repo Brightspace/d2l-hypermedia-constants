@@ -41,6 +41,10 @@
 				nextPeriod: 'https://activities.api.brightspace.com/rels/next-period',
 				previousPeriod: 'https://activities.api.brightspace.com/rels/previous-period'
 			},
+			// Assignments
+			Assignments: {
+				instructions: 'https://assignments.api.brightspace.com/rels/instructions'
+			},
 			// Parents API sub-domain rels
 			Parents: {
 				allChildren: 'https://parents.api.brightspace.com/rels/all-my-children'
@@ -55,6 +59,10 @@
 				courseInfo: 'https://folio.api.brightspace.com/rels/CourseInfo',
 				courseList: 'https://folio.api.brightspace.com/rels/CourseList'
 			},
+			// Quizzes API sub-domain rels
+			Quizzes: {
+				description: 'https://quizzes.api.brightspace.com/rels/description'
+			},
 			// Themes API sub-domain rels
 			Themes: {
 				theme: 'https://themes.api.brightspace.com/rels/theme',
@@ -68,7 +76,8 @@
 				userQuizActivity: 'user-quiz-activity'
 			},
 			assignments: {
-				assignment: 'assignment'
+				assignment: 'assignment',
+				instructions: 'instructions'
 			},
 			courseImage: {
 				courseImage: 'course-image',
@@ -94,7 +103,11 @@
 				unpinned: 'unpinned'
 			},
 			quizzes: {
-				quiz: 'quiz'
+				quiz: 'quiz',
+				description: 'description'
+			},
+			text: {
+				richtext: 'richtext'
 			}
 		},
 		HypermediaActions: {
