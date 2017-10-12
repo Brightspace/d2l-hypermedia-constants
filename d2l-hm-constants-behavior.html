@@ -73,6 +73,15 @@
 			Themes: {
 				theme: 'https://themes.api.brightspace.com/rels/theme',
 				logo: 'https://themes.api.brightspace.com/rels/logo',
+			},
+			// Notifications API sub-domain rels
+			Notifications: {
+				mySettings: 'https://notifications.api.brightspace.com/rels/my-settings',
+				mySubscriptions: 'https://notifications.api.brightspace.com/rels/my-subscriptions',
+				emailSettings: 'https://notifications.api.brightspace.com/rels/email-settings',
+				smsSettings: 'https://notifications.api.brightspace.com/rels/sms-settings',
+				gateways: 'https://notifications.api.brightspace.com/rels/gateways',
+				gateway: 'https://notifications.api.brightspace.com/rels/gateway',
 			}
 		},
 		HypermediaClasses: {
@@ -121,6 +130,15 @@
 			},
 			users: {
 				profile: 'profile'
+			},
+			notifications: {
+				subscription: {
+					instant: 'instant',
+					digest: 'digest',
+					subscribed: 'subscribed',
+					unsubscribed: 'unsubscribed',
+					disabled: 'disabled'
+				}
 			}
 		},
 		HypermediaActions: {
@@ -141,6 +159,33 @@
 			},
 			activities: {
 				selectCustomDateRange: 'select-custom-date-range'
+			},
+			notifications: {
+				getCarrierClass: 'get-carrier',
+				settings: {
+					update: 'update'
+				},
+				emailSettings: {
+					update: 'update',
+					delete: 'delete'
+				},
+				smsSettings: {
+					create: 'create',
+					update: 'update',
+					delete: 'delete',
+					verify: 'verify'
+				},
+				gateways: {
+					search: 'search'
+				},
+				gateway: {
+					updateNumber: 'update-number'
+				},
+				subscription: {
+					subscribe: 'subscribe',
+					unsubscribe: 'unsubscribe',
+					update: 'update'
+				}
 			}
 		}
 	}
