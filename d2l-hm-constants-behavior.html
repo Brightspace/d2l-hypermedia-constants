@@ -23,7 +23,6 @@
 			userEnrollment: 'https://api.brightspace.com/rels/user-enrollment',
 			organization: 'https://api.brightspace.com/rels/organization',
 			organizationHomepage: 'https://api.brightspace.com/rels/organization-homepage',
-			organizationNotifications: 'https://notifications.api.brightspace.com/rels/organization-notifications',
 			organizations: 'https://api.brightspace.com/rels/organizations',
 			parentSemester: 'https://api.brightspace.com/rels/parent-semester',
 			profileImage: 'https://api.brightspace.com/rels/profile-image',
@@ -67,7 +66,9 @@
 			Grades: {
 				comment: 'https://grades.api.brightspace.com/rels/comment',
 				comments: 'https://grades.api.brightspace.com/rels/comments',
-				gradeItem: 'https://grades.api.brightspace.com/rels/grade'
+				description: 'https://grades.api.brightspace.com/rels/description',
+				grade: 'https://grades.api.brightspace.com/rels/grade',
+				userGrade: 'https://grades.api.brightspace.com/rels/user-grade'
 			},
 			// Quizzes API sub-domain rels
 			Quizzes: {
@@ -87,6 +88,7 @@
 				smsSettings: 'https://notifications.api.brightspace.com/rels/sms-settings',
 				gateways: 'https://notifications.api.brightspace.com/rels/gateways',
 				gateway: 'https://notifications.api.brightspace.com/rels/gateway',
+				organizationNotifications: 'https://notifications.api.brightspace.com/rels/organization-notifications'
 			}
 		},
 		HypermediaClasses: {
@@ -123,9 +125,11 @@
 				unpinned: 'unpinned'
 			},
 			grades: {
-				grade: 'grade',
-				userGrades: 'user-grades',
 				comments: 'comments'
+				description: 'description',
+				grade: 'grade',
+				userGrade: 'user-grade',
+				userGrades: 'user-grades'
 			},
 			quizzes: {
 				quiz: 'quiz',
