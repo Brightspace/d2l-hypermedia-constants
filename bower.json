@@ -28,6 +28,16 @@
     "/demo/"
   ],
   "dependencies": {
-    "polymer": "^1.7.0"
+    "polymer": "1 - 2"
+  },
+  "variants": {
+    "1.x": {
+      "dependencies": {
+        "polymer": "^1.7.0"
+      },
+      "resolutions": {
+        "webcomponentsjs": "^0.7"
+      }
+    }
   }
 }
