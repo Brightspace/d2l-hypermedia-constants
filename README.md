@@ -2,7 +2,7 @@
 
 A [Polymer](https://www.polymer-project.org/1.0/)-based list of constants useful when using hypermedia.
 
-For further information on this and other D2L UI components, see the docs at [ui.valence.d2l.com](http://ui.valence.d2l.com/).
+For further information on this and other D2L UI components, see the docs at [ui.developers.brightspace.com](http://ui.developers.brightspace.com/).
 
 ## Installation
 
