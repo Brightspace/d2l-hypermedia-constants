@@ -122,8 +122,12 @@
 				overallLevel: 'https://rubrics.api.brightspace.com/rels/overall-level',
 				overallLevels: 'https://rubrics.api.brightspace.com/rels/overall-levels'
 			},
+			Alignments: {
+				collection: 'https://alignments.api.brightspace.com/rels/collection'
+			},
 			Outcomes: {
 				intents: 'https://outcomes.api.brightspace.com/rels/intents',
+				intent: 'https://outcomes.api.brightspace.com/rels/intent',
 				outcome: 'https://outcomes.api.brightspace.com/rels/outcome'
 			}
 		},
@@ -240,6 +244,9 @@
 				percentage: 'percentage',
 				selected: 'selected'
 			},
+			alignments: {
+				selected: 'selected'
+			},
 			outcomes: {
 				intent: 'intent',
 				intents: 'intents',
@@ -312,6 +319,15 @@
 			},
 			rubrics: {
 				selectCriterionCell: 'select-criterion-cell'
+		   	},
+			alignments: {
+				removeAlignment: 'remove-alignment'
+			},
+			outcomes: {
+				startUpdateAlignments: 'start-update-alignments',
+				select: 'select',
+				deselect: 'deselect',
+				submit: 'submit'
 			}
 		}
 	}
