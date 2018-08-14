@@ -121,6 +121,14 @@
 				levels: 'https://rubrics.api.brightspace.com/rels/levels',
 				overallLevel: 'https://rubrics.api.brightspace.com/rels/overall-level',
 				overallLevels: 'https://rubrics.api.brightspace.com/rels/overall-levels'
+			},
+			Alignments: {
+				collection: 'https://alignments.api.brightspace.com/rels/alignments'
+			},
+			Outcomes: {
+				intents: 'https://outcomes.api.brightspace.com/rels/intents',
+				intent: 'https://outcomes.api.brightspace.com/rels/intent',
+				outcome: 'https://outcomes.api.brightspace.com/rels/outcome'
 			}
 		},
 		HypermediaClasses: {
@@ -235,6 +243,17 @@
 				overridden: 'overridden',
 				percentage: 'percentage',
 				selected: 'selected'
+			},
+			alignments: {
+				selected: 'selected'
+			},
+			outcomes: {
+				intent: 'intent',
+				intents: 'intents',
+				intentList: 'intent-list',
+				organizationIntentList: 'organization-intent-list',
+				outcome: 'outcome',
+				outcomes: 'outcomes'
 			}
 		},
 		HypermediaActions: {
@@ -300,6 +319,13 @@
 			},
 			rubrics: {
 				selectCriterionCell: 'select-criterion-cell'
+		   	},
+			alignments: {
+				removeAlignment: 'remove-alignment',
+				startUpdateAlignments: 'start-update-alignments',
+				select: 'select',
+				deselect: 'deselect',
+				submit: 'submit'
 			}
 		}
 	}
