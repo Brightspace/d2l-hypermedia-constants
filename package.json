@@ -1,0 +1,18 @@
+{
+  "name": "d2l-hypermedia-constants",
+  "description": "Library of constants for communicating with D2L's Hypermedia APIs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brightspace/d2l-hm-constants-behavior.git"
+  },
+  "author": "D2L Corporation",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Brightspace/d2l-hm-constants-behavior/issues"
+  },
+  "homepage": "https://github.com/Brightspace/d2l-hm-constants-behavior#readme"
+}
