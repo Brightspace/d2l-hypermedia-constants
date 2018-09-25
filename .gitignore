@@ -17,3 +17,5 @@ build
 npm-debug.log
 yarn.lock
 public/polymer-components.vulcanized.html
+
+package-lock.json
