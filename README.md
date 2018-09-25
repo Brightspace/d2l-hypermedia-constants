@@ -18,6 +18,30 @@ behaviors: [
 ],
 ```
 
+## `npm` Module
+
+The constants are also available as an `npm` module for use with Node.js.
+
+```sh
+npm install --save Brightspace/d2l-hm-constants-behavior
+```
+
+```js
+const HypermediaConstants = require('d2l-hypermedia-constants');
+console.log(HypermediaConstants.Rels.Organization); // https://api.brightspace.com/rels/organziation
+```
+
+## Releases
+
+To generate a new release of both the Polymer behaviour and the `npm` module,
+
+```sh
+npm version [major|minor|patch] -m "New version: %s"
+git push origin master --tags
+```
+
+This will update the version in the package.json file, commit that, and generate the new tag that will be used by Bower to install the Polymer behaviour.
+
 ## Coding styles
 
 See the [Best Practices & Style Guide](https://github.com/Brightspace/valence-ui-docs/wiki/Best-Practices-&-Style-Guide) for information on naming conventions, plus information about the [EditorConfig](http://editorconfig.org) rules used in this repo.
