@@ -4,6 +4,7 @@ const D2LHypermediaRels = {
 	// default Brightspace domain rels
 	assessment: 'https://api.brightspace.com/rels/assessment',
 	assignment: 'https://api.brightspace.com/rels/assignment',
+	color: 'https://api.brightspace.com/rels/color',
 	content: 'https://api.brightspace.com/rels/content',
 	courseOfferingInfoPage: 'https://api.brightspace.com/rels/course-offering-info-page',
 	departments: 'https://api.brightspace.com/rels/departments',
@@ -16,10 +17,12 @@ const D2LHypermediaRels = {
 	userEnrollment: 'https://api.brightspace.com/rels/user-enrollment',
 	organization: 'https://api.brightspace.com/rels/organization',
 	organizationHomepage: 'https://api.brightspace.com/rels/organization-homepage',
+	organizationImage: 'https://api.brightspace.com/rels/organization-image',
 	organizations: 'https://api.brightspace.com/rels/organizations',
 	parentSemester: 'https://api.brightspace.com/rels/parent-semester',
 	profileImage: 'https://api.brightspace.com/rels/profile-image',
 	quiz: 'https://api.brightspace.com/rels/quiz',
+	role: 'https://api.brightspace.com/rels/role',
 	root: 'https://api.brightspace.com/rels/root',
 	rubric: 'https://api.brightspace.com/rels/rubric',
 	semesters: 'https://api.brightspace.com/rels/semesters',
@@ -27,6 +30,7 @@ const D2LHypermediaRels = {
 	thumbnailSmall: 'https://api.brightspace.com/rels/thumbnail#small',
 	userProfile: 'https://api.brightspace.com/rels/user-profile',
 	user: 'https://api.brightspace.com/rels/user',
+	users: 'https://api.brightspace.com/rels/users',
 	whoami: 'https://api.brightspace.com/rels/whoami',
 	widgetSettings: 'https://api.brightspace.com/rels/widget-settings',
 	// Activities API sub-domain rels
@@ -37,7 +41,9 @@ const D2LHypermediaRels = {
 		userActivityUsage: 'https://activities.api.brightspace.com/rels/user-activity-usage',
 		overdue: 'https://activities.api.brightspace.com/rels/overdue',
 		nextPeriod: 'https://activities.api.brightspace.com/rels/next-period',
+		nextWeek: 'https://activities.api.brightspace.com/rels/next-week',
 		previousPeriod: 'https://activities.api.brightspace.com/rels/previous-period',
+		previousWeek: 'https://activities.api.brightspace.com/rels/previous-week',
 		feedback: 'https://activities.api.brightspace.com/rels/feedback',
 		activityGrade: 'https://activities.api.brightspace.com/rels/activity-grade'
 	},
@@ -54,6 +60,9 @@ const D2LHypermediaRels = {
 		userAward: 'https://awards.api.brightspace.com/rels/user-award',
 		userAwards: 'https://awards.api.brightspace.com/rels/user-awards'
 	},
+	Checklists: {
+		checklist: 'https://checklists.api.brightspace.com/rels/checklist'
+	},
 	Content: {},
 	// Parents API sub-domain rels
 	Parents: {
@@ -62,6 +71,7 @@ const D2LHypermediaRels = {
 	// Discussions API sub-domain rels
 	Discussions: {
 		description: 'https://discussions.api.brightspace.com/rels/description',
+		mySubscriptions: 'https://discussions.api.brightspace.com/rels/my-subscriptions',
 		topic: 'https://discussions.api.brightspace.com/rels/topic'
 	},
 	// Folio API sub-domain rels
@@ -114,6 +124,9 @@ const D2LHypermediaRels = {
 		overallLevel: 'https://rubrics.api.brightspace.com/rels/overall-level',
 		overallLevels: 'https://rubrics.api.brightspace.com/rels/overall-levels'
 	},
+	Surveys: {
+		survey: 'https://surveys.api.brightspace.com/rels/survey'
+	},
 	Alignments: {
 		alignments: 'https://alignments.api.brightspace.com/rels/alignments'
 	},
@@ -132,7 +145,9 @@ const D2LHypermediaClasses = {
 		userAssignmentActivity: 'user-assignment-activity',
 		userQuizActivity: 'user-quiz-activity',
 		userContentActivity: 'user-content-activity',
-		userDiscussionActivity: 'user-discussion-activity'
+		userDiscussionActivity: 'user-discussion-activity',
+		userChecklistActivity: 'user-checklist-activity',
+		userSurveyActivity: 'user-survey-activity'
 	},
 	assignments: {
 		assignment: 'assignment',
