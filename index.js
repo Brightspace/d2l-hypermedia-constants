@@ -62,7 +62,8 @@ const D2LHypermediaRels = {
 		userAwards: 'https://awards.api.brightspace.com/rels/user-awards'
 	},
 	Checklists: {
-		checklist: 'https://checklists.api.brightspace.com/rels/checklist'
+		checklist: 'https://checklists.api.brightspace.com/rels/checklist',
+		checklistItem: 'https://checklists.api.brightspace.com/rels/checklist-item'
 	},
 	Content: {},
 	// Parents API sub-domain rels
