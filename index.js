@@ -10,6 +10,7 @@ const D2LHypermediaRels = {
 	departments: 'https://api.brightspace.com/rels/departments',
 	displayName: 'https://api.brightspace.com/rels/display-name',
 	firstName: 'https://api.brightspace.com/rels/first-name',
+	lastName: 'https://api.brightspace.com/rels/last-name',
 	myEnrollments: 'https://api.brightspace.com/rels/my-enrollments',
 	myNotifications: 'https://notifications.api.brightspace.com/rels/my-notifications',
 	myOrganizationGrades: 'https://api.brightspace.com/rels/my-organization-grades',
