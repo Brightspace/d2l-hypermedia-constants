@@ -29,7 +29,6 @@ const D2LHypermediaRels = {
 	semesters: 'https://api.brightspace.com/rels/semesters',
 	thumbnailRegular: 'https://api.brightspace.com/rels/thumbnail#regular',
 	thumbnailSmall: 'https://api.brightspace.com/rels/thumbnail#small',
-	update: 'https://api.brightspace.com/rels/update',
 	userProfile: 'https://api.brightspace.com/rels/user-profile',
 	user: 'https://api.brightspace.com/rels/user',
 	users: 'https://api.brightspace.com/rels/users',
@@ -114,7 +113,9 @@ const D2LHypermediaRels = {
 		smsSettings: 'https://notifications.api.brightspace.com/rels/sms-settings',
 		gateways: 'https://notifications.api.brightspace.com/rels/gateways',
 		gateway: 'https://notifications.api.brightspace.com/rels/gateway',
-		organizationNotifications: 'https://notifications.api.brightspace.com/rels/organization-notifications'
+		organizationNotifications: 'https://notifications.api.brightspace.com/rels/organization-notifications',
+		update: 'https://notifications.api.brightspace.com/rels/update',
+		updatesSource: 'https://notifications.api.brightspace.com/rels/updates-source'
 	},
 	// Rubrics API sub-domain rels
 	Rubrics: {
