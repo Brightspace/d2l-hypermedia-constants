@@ -29,6 +29,7 @@ const D2LHypermediaRels = {
 	semesters: 'https://api.brightspace.com/rels/semesters',
 	thumbnailRegular: 'https://api.brightspace.com/rels/thumbnail#regular',
 	thumbnailSmall: 'https://api.brightspace.com/rels/thumbnail#small',
+	update: 'https://api.brightspace.com/rels/update',
 	userProfile: 'https://api.brightspace.com/rels/user-profile',
 	user: 'https://api.brightspace.com/rels/user',
 	users: 'https://api.brightspace.com/rels/users',
