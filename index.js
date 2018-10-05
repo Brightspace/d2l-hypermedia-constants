@@ -113,7 +113,9 @@ const D2LHypermediaRels = {
 		smsSettings: 'https://notifications.api.brightspace.com/rels/sms-settings',
 		gateways: 'https://notifications.api.brightspace.com/rels/gateways',
 		gateway: 'https://notifications.api.brightspace.com/rels/gateway',
-		organizationNotifications: 'https://notifications.api.brightspace.com/rels/organization-notifications'
+		organizationNotifications: 'https://notifications.api.brightspace.com/rels/organization-notifications',
+		updates: 'https://notifications.api.brightspace.com/rels/updates',
+		updatesSource: 'https://notifications.api.brightspace.com/rels/updates-source'
 	},
 	// Rubrics API sub-domain rels
 	Rubrics: {
