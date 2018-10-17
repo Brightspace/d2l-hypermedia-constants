@@ -272,7 +272,9 @@ const D2LHypermediaClasses = {
 		intentList: 'intent-list',
 		organizationIntentList: 'organization-intent-list',
 		outcome: 'outcome',
-		outcomes: 'outcomes'
+		outcomes: 'outcomes',
+		selected: 'selected',
+		demonstratableLevel: 'demonstratable-level'
 	}
 };
 
@@ -346,6 +348,9 @@ const D2LHypermediaActions = {
 		select: 'select',
 		deselect: 'deselect',
 		submit: 'submit'
+	},
+	outcomes: {
+		select: 'select'
 	}
 };
 
