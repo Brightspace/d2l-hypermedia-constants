@@ -68,7 +68,9 @@ const D2LHypermediaRels = {
 		checklist: 'https://checklists.api.brightspace.com/rels/checklist',
 		checklistItem: 'https://checklists.api.brightspace.com/rels/checklist-item'
 	},
-	Content: {},
+	Content: {
+		sequence: 'https://api.brightspace.com/rels/sequence'
+	},
 	// Parents API sub-domain rels
 	Parents: {
 		allChildren: 'https://parents.api.brightspace.com/rels/all-my-children'
