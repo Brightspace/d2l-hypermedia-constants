@@ -30,6 +30,7 @@ const D2LHypermediaRels = {
 	richTextEditorConfig: 'https://api.brightspace.com/rels/richtext-editor-config',
 	rubric: 'https://api.brightspace.com/rels/rubric',
 	semesters: 'https://api.brightspace.com/rels/semesters',
+	sequence: 'https://api.brightspace.com/rels/sequence',
 	thumbnailRegular: 'https://api.brightspace.com/rels/thumbnail#regular',
 	thumbnailSmall: 'https://api.brightspace.com/rels/thumbnail#small',
 	userProfile: 'https://api.brightspace.com/rels/user-profile',
@@ -68,9 +69,7 @@ const D2LHypermediaRels = {
 		checklist: 'https://checklists.api.brightspace.com/rels/checklist',
 		checklistItem: 'https://checklists.api.brightspace.com/rels/checklist-item'
 	},
-	Content: {
-		sequence: 'https://api.brightspace.com/rels/sequence'
-	},
+	Content: {},
 	// Parents API sub-domain rels
 	Parents: {
 		allChildren: 'https://parents.api.brightspace.com/rels/all-my-children'
