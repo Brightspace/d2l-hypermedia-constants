@@ -30,6 +30,7 @@ const D2LHypermediaRels = {
 	richTextEditorConfig: 'https://api.brightspace.com/rels/richtext-editor-config',
 	rubric: 'https://api.brightspace.com/rels/rubric',
 	semesters: 'https://api.brightspace.com/rels/semesters',
+	sequence: 'https://api.brightspace.com/rels/sequence',
 	thumbnailRegular: 'https://api.brightspace.com/rels/thumbnail#regular',
 	thumbnailSmall: 'https://api.brightspace.com/rels/thumbnail#small',
 	userProfile: 'https://api.brightspace.com/rels/user-profile',
