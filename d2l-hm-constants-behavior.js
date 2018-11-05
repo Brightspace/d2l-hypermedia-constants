@@ -1,4 +1,4 @@
-'use strict';
+import '../@polymer/polymer/polymer-legacy.js';
 
 const D2LHypermediaRels = {
 	// default Brightspace domain rels
@@ -364,4 +364,16 @@ if (typeof module !== 'undefined') {
 		Classes: D2LHypermediaClasses,
 		Rels: D2LHypermediaRels
 	}
+}
+
+window.D2L = window.D2L || {};
+window.D2L.Hypermedia = window.D2L.Hypermedia || {};
+/*
+* General constants used for the navigation of Hypermedia
+* @polymerBehavior window.D2L.Hypermedia.HMConstantsBehavior
+*/
+window.D2L.Hypermedia.HMConstantsBehavior = {
+	HypermediaRels: D2LHypermediaRels,
+	HypermediaClasses: D2LHypermediaClasses,
+	HypermediaActions: D2LHypermediaActions
 }
