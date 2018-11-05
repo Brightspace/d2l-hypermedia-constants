@@ -1,0 +1,14 @@
+language: node_js
+node_js: node
+script:
+  - npm run build
+deploy:
+  skip_cleanup: true
+  provider: npm
+  email: d2ltravisdeploy@d2l.com
+  api_key:
+    # d2l-travis-deploy: 288c......5325
+    secure: fl140PgRaU2H6lEQKYFlEqBe4iNSkGU9vjjweTOs+kxnISVKMrBHkvpynVVn1AFAyrA3NzYZ6HO5aA1NGqsfxegw7+vAI6YoqeUaGyUiq8+5Ziiy25xkzJ94IMrkMuxLvqf+RlW9eI5u0hpOeQc+yX7i/BS5SY+F5ZLarbg0MYTKTi4SxHQ3mgyKzQkicWtx18JeTcan2jwegnqY0UBA//fiPcWAlju9ZbeC0e/nz65cvLuhSTHyRg1FRIS7PTlQ6gsmpYcaTFFeZxQop57RuGMtAYasXwfv0FuNMvJ6GlbrovMiS3VvigqsnCjfjnrPSvBUArDS7shkQH3XXyE4pZK3jv55t2M6+9BD+pAe1DkOCkmTVdHsry48EZ5B7igY+4EBzIH97Ya5NAnn4srtEPeYqLwxXIgg8b3/WhkkJc40vyk9sUwVQ1moTgB5+hwuxT55WoO0nnCos4cIjk/aqczXiO8LcZLegoo39qgE8w3VX8zVnqNKkint298pzynLrUZlnp0B0iNW/3KWlobVxkCPMnHWMz4BG8Dfg57vh0lioeoFhIzUTStakeXse1u8q/j0w4uyo2XXh40RuKHgHX71puqx4ycsOrRBDW3/R0B8AV/OKN/+SvgBlmWlcgB6VcWVychyDMwrjM75vhSe0mDw6kulmD/hhVV/bMGb9UI=
+  on:
+    tags: true
+    repo: Brightspace/d2l-hypermedia-constants

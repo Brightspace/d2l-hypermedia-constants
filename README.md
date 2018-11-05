@@ -1,46 +1,56 @@
-# d2l-hm-constants-behavior
+# d2l-hypermedia-constants
 
-A [Polymer](https://www.polymer-project.org/1.0/)-based list of constants useful when using hypermedia.
-
-For further information on this and other D2L UI components, see the docs at [ui.developers.brightspace.com](http://ui.developers.brightspace.com/).
+Library of constants useful when using hypermedia.
 
 ## Installation
 
-`d2l-hm-constants-behavior` can be installed from Bower:
+`d2l-hypermedia-constants` can be installed from NPM:
 ```shell
-bower install git://github.com/Brightspace/d2l-hm-constants-behavior.git#^1.0.0
+npm install --save d2l-hypermedia-constants
 ```
 
 ## Usage
-```js
-behaviors: [
-	window.D2L.Hypermedia.HMConstantsBehavior
-],
-```
 
-## `npm` Module
-
-The constants are also available as an `npm` module for use with Node.js.
-
-```sh
-npm install --save Brightspace/d2l-hm-constants-behavior
-```
+### Node.js
 
 ```js
-const HypermediaConstants = require('d2l-hypermedia-constants');
-console.log(HypermediaConstants.Rels.Organization); // https://api.brightspace.com/rels/organziation
+const hypermediaConstants = require('d2l-hypermedia-constants');
+console.log(hypermediaConstants.Actions);
+console.log(hypermediaConstants.Classes);
+console.log(hypermediaConstants.Rels);
+```
+
+### ES6 Module Import
+
+```js
+import {Actions, Classes, Rels} from 'd2l-hypermedia-constants';
+console.log(Actions);
+console.log(Classes);
+console.log(Rels);
+```
+
+### ES6 Module Global
+
+```html
+<script type="module" src="../d2l-hypermedia-constants/d2l-hypermedia-constants.js"></script>
+<script>
+console.log(D2L.Hypermedia.Actions);
+console.log(D2L.Hypermedia.Classes);
+console.log(D2L.Hypermedia.Rels);
+</script>
 ```
 
 ## Releases
 
-To generate a new release of both the Polymer behaviour and the `npm` module,
-
-```sh
+To generate a new release:
+```shell
 npm version [major|minor|patch] -m "New version: %s"
 git push origin master --tags
 ```
 
-This will update the version in the package.json file, commit that, and generate the new tag that will be used by Bower to install the Polymer behaviour.
+This will update the version in the package.json file, commit that, and generate a new tag.
+
+When Travis CI runs on the tagged release, it will be deployed to NPM.
 
 ## Coding styles
 

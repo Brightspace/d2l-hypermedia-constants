@@ -1,6 +1,4 @@
-'use strict';
-
-const D2LHypermediaRels = {
+export const Rels = {
 	// default Brightspace domain rels
 	assessment: 'https://api.brightspace.com/rels/assessment',
 	assignment: 'https://api.brightspace.com/rels/assignment',
@@ -149,7 +147,7 @@ const D2LHypermediaRels = {
 	}
 };
 
-const D2LHypermediaClasses = {
+export const Classes = {
 	activities: {
 		complete: 'complete',
 		exempt: 'exempt',
@@ -289,7 +287,7 @@ const D2LHypermediaClasses = {
 	}
 };
 
-const D2LHypermediaActions = {
+export const Actions = {
 	enrollments: {
 		addDepartmentFilter: 'add-department-filter',
 		addSemesterFilter: 'add-semester-filter',
@@ -364,11 +362,3 @@ const D2LHypermediaActions = {
 		select: 'select'
 	}
 };
-
-if (typeof module !== 'undefined') {
-	module.exports = {
-		Actions: D2LHypermediaActions,
-		Classes: D2LHypermediaClasses,
-		Rels: D2LHypermediaRels
-	}
-}
