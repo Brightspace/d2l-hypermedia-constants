@@ -283,6 +283,9 @@ const D2LHypermediaClasses = {
 		outcomes: 'outcomes',
 		selected: 'selected',
 		demonstratableLevel: 'demonstratable-level'
+	},
+	meetings: {
+		bookable: 'bookable'
 	}
 };
 
