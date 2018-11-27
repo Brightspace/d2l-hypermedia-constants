@@ -143,6 +143,9 @@ const D2LHypermediaRels = {
 		intents: 'https://outcomes.api.brightspace.com/rels/intents',
 		intent: 'https://outcomes.api.brightspace.com/rels/intent',
 		outcome: 'https://outcomes.api.brightspace.com/rels/outcome'
+	},
+	Meetings: {
+		meetingManagementTool: 'https://meetings.api.brightspace.com/rels/meeting-management-tool'
 	}
 };
 
