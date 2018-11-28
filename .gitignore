@@ -2,8 +2,6 @@
 
 # dependencies
 node_modules
-bower_components*
-bower-*
 
 # testing
 coverage
@@ -19,3 +17,4 @@ yarn.lock
 public/polymer-components.vulcanized.html
 
 package-lock.json
+dist

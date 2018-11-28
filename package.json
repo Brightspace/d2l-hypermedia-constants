@@ -1,19 +1,31 @@
 {
-  "name": "d2l-hypermedia-constants",
   "description": "Library of constants for communicating with D2L's Hypermedia APIs",
-  "version": "5.28.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "keywords": [
+    "d2l",
+    "hypermedia",
+    "constants"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Brightspace/d2l-hm-constants-behavior.git"
+  },
+  "homepage": "https://github.com/Brightspace/d2l-hm-constants-behavior#readme",
+  "name": "d2l-hypermedia-constants",
+  "version": "6.0.0",
+  "main": "dist/index.js",
+  "module": "index.js",
+  "scripts": {
+    "build": "babel index.js --out-dir ./dist"
   },
   "author": "D2L Corporation",
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/Brightspace/d2l-hm-constants-behavior/issues"
   },
-  "homepage": "https://github.com/Brightspace/d2l-hm-constants-behavior#readme"
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.5",
+    "@babel/preset-env": "^7.1.5",
+    "babel-plugin-add-module-exports": "^1.0.0"
+  }
 }
