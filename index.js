@@ -124,6 +124,7 @@ const D2LHypermediaRels = {
 	},
 	// Rubrics API sub-domain rels
 	Rubrics: {
+		allowedAssociations: 'https://rubrics.api.brightspace.com/rels/allowed-associations',
 		criteria: 'https://rubrics.api.brightspace.com/rels/criteria',
 		criteriaGroups: 'https://rubrics.api.brightspace.com/rels/criteria-groups',
 		criterion: 'https://rubrics.api.brightspace.com/rels/criterion',
