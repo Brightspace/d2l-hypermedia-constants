@@ -153,6 +153,7 @@ export const Rels = {
 
 export const Classes = {
 	activities: {
+		assigned: 'assigned',
 		complete: 'complete',
 		exempt: 'exempt',
 		feedbackDate: 'feedback-date',
@@ -319,6 +320,7 @@ export const Actions = {
 		selectCustomDateRange: 'select-custom-date-range'
 	},
 	assignments: {
+		assign: 'assign',
 		delete: 'delete'
 	},
 	notifications: {
