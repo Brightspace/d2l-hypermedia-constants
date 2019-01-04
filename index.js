@@ -298,6 +298,7 @@ const D2LHypermediaActions = {
 		removeDepartmentFilter: 'remove-department-filter',
 		removeSemesterFilter: 'remove-semester-filter',
 		searchMyEnrollments: 'search-my-enrollments',
+		searchMyPinnedEnrollments: 'search-my-pinned-enrollments',
 		searchMyDepartments: 'search-my-departments',
 		searchMySemesters: 'search-my-semesters',
 		setRoleFilters: 'set-role-filters',
