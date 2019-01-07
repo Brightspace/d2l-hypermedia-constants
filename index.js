@@ -1,8 +1,7 @@
 export const Rels = {
 	// default Brightspace domain rels
 	assessment: 'https://api.brightspace.com/rels/assessment',
-	assessmentApplication: 'https://api.birghtspace.com/rels/assessment-application',
-	assignment: 'https://api.brightspace.com/rels/assignment',
+	assignment: 'https://api.brightspace.com/rels/assignment',	
 	color: 'https://api.brightspace.com/rels/color',
 	content: 'https://api.brightspace.com/rels/content',
 	courseOfferingInfoPage: 'https://api.brightspace.com/rels/course-offering-info-page',
@@ -54,6 +53,10 @@ export const Rels = {
 		previousWeek: 'https://activities.api.brightspace.com/rels/previous-week',
 		feedback: 'https://activities.api.brightspace.com/rels/feedback',
 		activityGrade: 'https://activities.api.brightspace.com/rels/activity-grade'
+	},
+	// Assessments
+	Assessments: {
+		assessmentApplication: 'https://assessments.brightspace.com/rels/assessment-application'
 	},
 	// Assignments
 	Assignments: {
