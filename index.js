@@ -1,6 +1,7 @@
 export const Rels = {
 	// default Brightspace domain rels
 	assessment: 'https://api.brightspace.com/rels/assessment',
+	assessmentApplication: 'https://api.birghtspace.com/rels/assessment-application',
 	assignment: 'https://api.brightspace.com/rels/assignment',
 	color: 'https://api.brightspace.com/rels/color',
 	content: 'https://api.brightspace.com/rels/content',
