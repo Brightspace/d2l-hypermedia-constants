@@ -54,6 +54,10 @@ export const Rels = {
 		feedback: 'https://activities.api.brightspace.com/rels/feedback',
 		activityGrade: 'https://activities.api.brightspace.com/rels/activity-grade'
 	},
+	// Assessments
+	Assessments: {
+		assessmentApplication: 'https://assessments.brightspace.com/rels/assessment-application'
+	},
 	// Assignments
 	Assignments: {
 		instructions: 'https://assignments.api.brightspace.com/rels/instructions',
