@@ -164,6 +164,7 @@ export const Classes = {
 		userAssignmentActivity: 'user-assignment-activity',
 		userQuizActivity: 'user-quiz-activity',
 		userContentActivity: 'user-content-activity',
+		userCourseOfferingActivity: 'user-course-offering-activity-usage',
 		userDiscussionActivity: 'user-discussion-activity',
 		userChecklistActivity: 'user-checklist-activity',
 		userSurveyActivity: 'user-survey-activity'
