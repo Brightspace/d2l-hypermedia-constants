@@ -1,4 +1,4 @@
-import {Actions, Classes, Rels} from 'index.js';
+import {Actions, Classes, Rels} from './index.js';
 
 window.D2L = window.D2L || {};
 window.D2L.Hypermedia = window.D2L.Hypermedia || {};
@@ -7,6 +7,7 @@ window.D2L.Hypermedia.Constants = {
 	Classes: Classes,
 	Rels: Rels
 };
+
 // for backwards-compatibility
 window.D2L.Hypermedia.HMConstantsBehavior = {
 	HypermediaActions: Actions,
