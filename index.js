@@ -42,6 +42,7 @@ export const Rels = {
 	// Activities API sub-domain rels
 	Activities: {
 		myActivities: 'https://activities.api.brightspace.com/rels/my-activities',
+		myActivitiesEmpty: 'https://activities.api.brightspace.com/rels/my-activities#empty',
 		activityUsage: 'https://activities.api.brightspace.com/rels/activity-usage',
 		myActivityUsage: 'https://activities.api.brightspace.com/rels/my-activity-usage',
 		userActivityUsage: 'https://activities.api.brightspace.com/rels/user-activity-usage',
