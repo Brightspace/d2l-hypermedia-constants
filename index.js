@@ -54,7 +54,7 @@ export const Rels = {
 		previousWeek: 'https://activities.api.brightspace.com/rels/previous-week',
 		feedback: 'https://activities.api.brightspace.com/rels/feedback',
 		activityGrade: 'https://activities.api.brightspace.com/rels/activity-grade',
-		actvitiyHomepage: 'https://activities.api.brightspace.com/rels/activity-homepage'
+		activityHomepage: 'https://activities.api.brightspace.com/rels/activity-homepage'
 	},
 	// Assessments
 	Assessments: {
