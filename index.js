@@ -165,6 +165,7 @@ export const Classes = {
 		feedbackDate: 'feedback-date',
 		userAssignmentActivity: 'user-assignment-activity',
 		userQuizActivity: 'user-quiz-activity',
+		userQuizAttemptActivity: 'user-quiz-attempt-activity',
 		userContentActivity: 'user-content-activity',
 		userCourseOfferingActivity: 'user-course-offering-activity-usage',
 		userDiscussionActivity: 'user-discussion-activity',
