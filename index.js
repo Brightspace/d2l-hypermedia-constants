@@ -161,8 +161,10 @@ export const Classes = {
 	activities: {
 		assigned: 'assigned',
 		complete: 'complete',
+		completion: 'completion',
 		exempt: 'exempt',
 		feedbackDate: 'feedback-date',
+		relativeUri: 'relative-uri',
 		userAssignmentActivity: 'user-assignment-activity',
 		userQuizActivity: 'user-quiz-activity',
 		userQuizAttemptActivity: 'user-quiz-attempt-activity',
