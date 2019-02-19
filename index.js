@@ -161,6 +161,7 @@ export const Classes = {
 	activities: {
 		assigned: 'assigned',
 		complete: 'complete',
+		completion: 'completion',
 		exempt: 'exempt',
 		feedbackDate: 'feedback-date',
 		userAssignmentActivity: 'user-assignment-activity',
@@ -298,7 +299,8 @@ export const Classes = {
 	},
 	meetings: {
 		bookable: 'bookable'
-	}
+	},
+	relativeUri: 'relative-uri'
 };
 
 export const Actions = {
