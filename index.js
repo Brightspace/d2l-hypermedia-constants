@@ -10,6 +10,7 @@ export const Rels = {
 	departments: 'https://api.brightspace.com/rels/departments',
 	displayName: 'https://api.brightspace.com/rels/display-name',
 	enrollments: 'https://api.brightspace.com/rels/enrollments',
+	filter: 'https://api.brightspace.com/rels/filter',
 	filters: 'https://api.brightspace.com/rels/filters',
 	firstName: 'https://api.brightspace.com/rels/first-name',
 	lastName: 'https://api.brightspace.com/rels/last-name',
