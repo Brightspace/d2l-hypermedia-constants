@@ -156,6 +156,9 @@ export const Rels = {
 	},
 	Meetings: {
 		meetingManagementTool: 'https://meetings.api.brightspace.com/rels/meeting-management-tool'
+	},
+	Users: {
+		canonicalUser: 'https://users.api.brightspace.com/rels/canonical-user'
 	}
 };
 
