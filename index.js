@@ -52,7 +52,9 @@ const D2LHypermediaRels = {
 		previousPeriod: 'https://activities.api.brightspace.com/rels/previous-period',
 		previousWeek: 'https://activities.api.brightspace.com/rels/previous-week',
 		feedback: 'https://activities.api.brightspace.com/rels/feedback',
-		activityGrade: 'https://activities.api.brightspace.com/rels/activity-grade'
+		activityGrade: 'https://activities.api.brightspace.com/rels/activity-grade',
+		childActivityUsage: 'https://activities.api.brightspace.com/rels/child-activity-usage',
+		childUserActivityUsage: 'https://activities.api.brightspace.com/rels/child-user-activity-usage'
 	},
 	// Assignments
 	Assignments: {
@@ -69,7 +71,8 @@ const D2LHypermediaRels = {
 	},
 	Checklists: {
 		checklist: 'https://checklists.api.brightspace.com/rels/checklist',
-		checklistItem: 'https://checklists.api.brightspace.com/rels/checklist-item'
+		checklistItem: 'https://checklists.api.brightspace.com/rels/checklist-item',
+		description: 'https://checklists.api.brightspace.com/rels/description'
 	},
 	Content: {},
 	// Parents API sub-domain rels
@@ -136,7 +139,8 @@ const D2LHypermediaRels = {
 		overallLevels: 'https://rubrics.api.brightspace.com/rels/overall-levels'
 	},
 	Surveys: {
-		survey: 'https://surveys.api.brightspace.com/rels/survey'
+		survey: 'https://surveys.api.brightspace.com/rels/survey',
+		description: 'https://surveys.api.brightspace.com/rels/description'
 	},
 	Alignments: {
 		alignments: 'https://alignments.api.brightspace.com/rels/alignments'
