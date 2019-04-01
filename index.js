@@ -3,6 +3,7 @@ export const Rels = {
 	assessment: 'https://api.brightspace.com/rels/assessment',
 	assignment: 'https://api.brightspace.com/rels/assignment',
 	color: 'https://api.brightspace.com/rels/color',
+	completion: 'https://api.brightspace.com/rels/completion',
 	content: 'https://api.brightspace.com/rels/content',
 	courseOfferingInfoPage: 'https://api.brightspace.com/rels/course-offering-info-page',
 	date: 'https://api.brightspace.com/rels/date',
