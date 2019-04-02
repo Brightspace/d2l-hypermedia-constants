@@ -302,6 +302,7 @@ export const Classes = {
 		outcome: 'outcome',
 		outcomes: 'outcomes',
 		selected: 'selected',
+		suggested: 'suggested',
 		demonstratableLevel: 'demonstratable-level'
 	},
 	meetings: {
