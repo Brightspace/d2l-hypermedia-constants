@@ -324,6 +324,7 @@ export const Actions = {
 		searchMySemesters: 'search-my-semesters',
 		setRoleFilters: 'set-role-filters',
 		unpinCourse: 'unpin-course',
+		updateUserSettings: 'update-user-settings',
 		roleFilters: {
 			addFilter: 'add-filter',
 			applyRoleFilters: 'apply-role-filters',
