@@ -181,7 +181,9 @@ export const Classes = {
 		userSurveyActivity: 'user-survey-activity'
 	},
 	assignments: {
+		annotated: 'annotated',
 		assignment: 'assignment',
+		assignmentSubmission: 'assignment-submission',
 		attachment: 'attachment',
 		attachmentList: 'attachment-list',
 		instructions: 'instructions',
