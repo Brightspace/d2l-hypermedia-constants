@@ -2,6 +2,7 @@ export const Rels = {
 	// default Brightspace domain rels
 	assessment: 'https://api.brightspace.com/rels/assessment',
 	assignment: 'https://api.brightspace.com/rels/assignment',
+	cachePrimer: 'https://api.brightspace.com/rels/cache-primer',
 	color: 'https://api.brightspace.com/rels/color',
 	completion: 'https://api.brightspace.com/rels/completion',
 	content: 'https://api.brightspace.com/rels/content',
@@ -80,6 +81,9 @@ export const Rels = {
 	Checklists: {
 		checklist: 'https://checklists.api.brightspace.com/rels/checklist',
 		checklistItem: 'https://checklists.api.brightspace.com/rels/checklist-item'
+	},
+	Conditions: {
+		conditions: 'https://conditions.api.brightspace.com/rels/conditions'
 	},
 	Content: {},
 	// Parents API sub-domain rels
