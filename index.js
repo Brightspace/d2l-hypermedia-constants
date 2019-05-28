@@ -209,6 +209,9 @@ export const Classes = {
 		userAward: 'user-award',
 		userAwards: 'user-awards'
 	},
+	condition: {
+		section: 'section'
+	},
 	content: {
 		content: 'content',
 		sequencedActivity: 'sequenced-activity',
