@@ -209,7 +209,7 @@ export const Classes = {
 		userAward: 'user-award',
 		userAwards: 'user-awards'
 	},
-	condition: {
+	conditions: {
 		section: 'section'
 	},
 	content: {
