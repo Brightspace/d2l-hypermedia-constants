@@ -304,20 +304,31 @@ export const Classes = {
 		selected: 'selected'
 	},
 	outcomes: {
+		assessed: 'assessed',
+		demonstration: 'demonstration',
+		demonstratableLevel: 'demonstratable-level',
 		intent: 'intent',
 		intents: 'intents',
 		intentList: 'intent-list',
+		levelOfAchievement: 'level-of-achievment',
 		organizationIntentList: 'organization-intent-list',
 		outcome: 'outcome',
 		outcomes: 'outcomes',
 		selected: 'selected',
-		suggested: 'suggested',
-		demonstratableLevel: 'demonstratable-level'
+		suggested: 'suggested'
 	},
 	meetings: {
 		bookable: 'bookable'
 	},
-	relativeUri: 'relative-uri'
+	relativeUri: 'relative-uri',
+	userProgress: {
+		outcomes: {
+			outcomes: 'user-progress-outcomes',
+			outcome: 'user-progress-outcome',
+			activities: 'user-progress-outcome-activities',
+			activity: 'user-progress-outcome-activity'
+		}
+	}
 };
 
 export const Actions = {
