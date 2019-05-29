@@ -325,7 +325,7 @@ export const Classes = {
 		outcomes: {
 			outcomes: 'user-progress-outcomes',
 			outcome: 'user-progress-outcome',
-			activities: 'outcome-activities',
+			activities: 'user-progress-outcome-activities',
 			activity: 'user-progress-outcome-activity'
 		}
 	}
