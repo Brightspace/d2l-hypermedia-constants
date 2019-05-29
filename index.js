@@ -323,7 +323,7 @@ export const Classes = {
 	relativeUri: 'relative-uri',
 	userProgress: {
 		outcomes: {
-			root: 'user-progress-outcomes',
+			outcomes: 'user-progress-outcomes',
 			outcome: 'user-progress-outcome',
 			activities: 'outcome-activities',
 			activity: 'user-progress-outcome-activity'
