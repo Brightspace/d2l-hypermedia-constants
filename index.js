@@ -159,6 +159,7 @@ export const Rels = {
 	Outcomes: {
 		intents: 'https://outcomes.api.brightspace.com/rels/intents',
 		intent: 'https://outcomes.api.brightspace.com/rels/intent',
+		level: 'https://achievements.api.brightspace.com/rels/level',
 		outcome: 'https://outcomes.api.brightspace.com/rels/outcome'
 	},
 	Meetings: {
@@ -166,6 +167,11 @@ export const Rels = {
 	},
 	Users: {
 		canonicalUser: 'https://users.api.brightspace.com/rels/canonical-user'
+	},
+	UserProgress: {
+		Outcomes: {
+			activities: 'https://user-progress.api.brightspace.com/rels/outcome-activities'
+		}
 	}
 };
 
