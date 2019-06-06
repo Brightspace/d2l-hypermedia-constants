@@ -59,7 +59,8 @@ export const Rels = {
 		previousWeek: 'https://activities.api.brightspace.com/rels/previous-week',
 		feedback: 'https://activities.api.brightspace.com/rels/feedback',
 		activityGrade: 'https://activities.api.brightspace.com/rels/activity-grade',
-		activityHomepage: 'https://activities.api.brightspace.com/rels/activity-homepage'
+		activityHomepage: 'https://activities.api.brightspace.com/rels/activity-homepage',
+		evaluationStatus: 'https://activities.api.brightspace.com/rels/evaluation-status'
 	},
 	// Assessments
 	Assessments: {
@@ -171,10 +172,13 @@ export const Rels = {
 export const Classes = {
 	activities: {
 		assigned: 'assigned',
+		assignmentActivity: 'assignment-activity',
 		complete: 'complete',
 		completion: 'completion',
+		discussionActivity: 'discussion-activity',
 		exempt: 'exempt',
 		feedbackDate: 'feedback-date',
+		quizActivity: 'quiz-activity',
 		userAssignmentActivity: 'user-assignment-activity',
 		userQuizActivity: 'user-quiz-activity',
 		userQuizAttemptActivity: 'user-quiz-attempt-activity',
