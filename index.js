@@ -172,7 +172,8 @@ export const Rels = {
 	},
 	UserProgress: {
 		Outcomes: {
-			activities: 'https://user-progress.api.brightspace.com/rels/outcome-activities'
+			activities: 'https://user-progress.api.brightspace.com/rels/outcome-activities',
+			feedback: 'https://user-progress.api.brightspace.com/rels/feedback'
 		}
 	}
 };
