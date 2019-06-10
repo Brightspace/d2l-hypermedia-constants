@@ -156,10 +156,12 @@ export const Rels = {
 	Alignments: {
 		alignments: 'https://alignments.api.brightspace.com/rels/alignments'
 	},
+	Achievements: {
+		level: 'https://achievements.api.brightspace.com/rels/level'
+	},
 	Outcomes: {
 		intents: 'https://outcomes.api.brightspace.com/rels/intents',
 		intent: 'https://outcomes.api.brightspace.com/rels/intent',
-		level: 'https://achievements.api.brightspace.com/rels/level',
 		outcome: 'https://outcomes.api.brightspace.com/rels/outcome'
 	},
 	Meetings: {
