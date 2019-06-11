@@ -171,10 +171,8 @@ export const Rels = {
 		canonicalUser: 'https://users.api.brightspace.com/rels/canonical-user'
 	},
 	UserProgress: {
-		Outcomes: {
-			activities: 'https://user-progress.api.brightspace.com/rels/outcome-activities',
-			feedback: 'https://user-progress.api.brightspace.com/rels/feedback'
-		}
+		outcomeActivities: 'https://user-progress.api.brightspace.com/rels/outcome-activities',
+		feedback: 'https://user-progress.api.brightspace.com/rels/feedback'
 	}
 };
 
