@@ -156,6 +156,9 @@ export const Rels = {
 	Alignments: {
 		alignments: 'https://alignments.api.brightspace.com/rels/alignments'
 	},
+	Achievements: {
+		level: 'https://achievements.api.brightspace.com/rels/level'
+	},
 	Outcomes: {
 		intents: 'https://outcomes.api.brightspace.com/rels/intents',
 		intent: 'https://outcomes.api.brightspace.com/rels/intent',
@@ -166,6 +169,10 @@ export const Rels = {
 	},
 	Users: {
 		canonicalUser: 'https://users.api.brightspace.com/rels/canonical-user'
+	},
+	UserProgress: {
+		outcomeActivities: 'https://user-progress.api.brightspace.com/rels/outcome-activities',
+		feedback: 'https://user-progress.api.brightspace.com/rels/feedback'
 	}
 };
 
