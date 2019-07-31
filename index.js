@@ -223,6 +223,10 @@ export const Classes = {
 	conditions: {
 		section: 'section'
 	},
+	consortium: {
+		token: 'token',
+		tokens: 'tokens'
+	},
 	content: {
 		content: 'content',
 		sequencedActivity: 'sequenced-activity',
