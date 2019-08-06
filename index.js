@@ -60,7 +60,11 @@ export const Rels = {
 		feedback: 'https://activities.api.brightspace.com/rels/feedback',
 		activityGrade: 'https://activities.api.brightspace.com/rels/activity-grade',
 		activityHomepage: 'https://activities.api.brightspace.com/rels/activity-homepage',
-		evaluationStatus: 'https://activities.api.brightspace.com/rels/evaluation-status'
+		evaluationStatus: 'https://activities.api.brightspace.com/rels/evaluation-status',
+		submissionApplication: 'https://assessments.api.brightspace.com/rels/submission-application',
+		assessAllApplication: 'https://assessments.api.brightspace.com/rels/assess-all-application',
+		assessNewApplication: 'https://assessments.api.brightspace.com/rels/assess-new-application'
+
 	},
 	// Assessments
 	Assessments: {
