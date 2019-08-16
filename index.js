@@ -223,11 +223,15 @@ export const Classes = {
 		userAward: 'user-award',
 		userAwards: 'user-awards'
 	},
+	checklists: {
+		checklistItem: 'checklist-item'
+	},
 	conditions: {
 		section: 'section'
 	},
 	content: {
 		content: 'content',
+		sequence: 'sequence',
 		sequencedActivity: 'sequenced-activity',
 		topic: 'topic',
 		module: 'module'
@@ -273,11 +277,15 @@ export const Classes = {
 		points: 'points'
 	},
 	organizations: {
+		completionTracked: 'completion-tracked',
 		courseOffering: 'course-offering'
 	},
 	quizzes: {
 		quiz: 'quiz',
 		description: 'description'
+	},
+	surveys: {
+		survey: 'survey'
 	},
 	text: {
 		richtext: 'richtext'
