@@ -185,6 +185,7 @@ export const Classes = {
 		assignmentActivity: 'assignment-activity',
 		complete: 'complete',
 		completion: 'completion',
+		completionTracked: 'completion-tracked',
 		discussionActivity: 'discussion-activity',
 		exempt: 'exempt',
 		feedbackDate: 'feedback-date',
@@ -223,11 +224,15 @@ export const Classes = {
 		userAward: 'user-award',
 		userAwards: 'user-awards'
 	},
+	checklists: {
+		checklistItem: 'checklist-item'
+	},
 	conditions: {
 		section: 'section'
 	},
 	content: {
 		content: 'content',
+		sequence: 'sequence',
 		sequencedActivity: 'sequenced-activity',
 		topic: 'topic',
 		module: 'module'
@@ -278,6 +283,9 @@ export const Classes = {
 	quizzes: {
 		quiz: 'quiz',
 		description: 'description'
+	},
+	surveys: {
+		survey: 'survey'
 	},
 	text: {
 		richtext: 'richtext'
