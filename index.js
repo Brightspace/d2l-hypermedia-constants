@@ -185,7 +185,6 @@ export const Classes = {
 		assignmentActivity: 'assignment-activity',
 		complete: 'complete',
 		completion: 'completion',
-		completionTracked: 'completion-tracked',
 		discussionActivity: 'discussion-activity',
 		exempt: 'exempt',
 		feedbackDate: 'feedback-date',
@@ -278,6 +277,7 @@ export const Classes = {
 		points: 'points'
 	},
 	organizations: {
+		completionTracked: 'completion-tracked',
 		courseOffering: 'course-offering'
 	},
 	quizzes: {
