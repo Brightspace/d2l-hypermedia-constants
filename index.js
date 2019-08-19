@@ -181,6 +181,7 @@ export const Rels = {
 
 export const Classes = {
 	activities: {
+		activity: 'activity',
 		assigned: 'assigned',
 		assignmentActivity: 'assignment-activity',
 		complete: 'complete',
@@ -188,6 +189,8 @@ export const Classes = {
 		discussionActivity: 'discussion-activity',
 		exempt: 'exempt',
 		feedbackDate: 'feedback-date',
+		fileActivity: 'file-activity',
+		incomplete: 'incomplete',
 		quizActivity: 'quiz-activity',
 		userAssignmentActivity: 'user-assignment-activity',
 		userQuizActivity: 'user-quiz-activity',
@@ -233,6 +236,7 @@ export const Classes = {
 		content: 'content',
 		sequence: 'sequence',
 		sequencedActivity: 'sequenced-activity',
+		sequenceDescription: 'sequence-description',
 		topic: 'topic',
 		module: 'module'
 	},
