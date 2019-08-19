@@ -97,6 +97,7 @@ export const Rels = {
 	// Discussions API sub-domain rels
 	Discussions: {
 		description: 'https://discussions.api.brightspace.com/rels/description',
+		forum: 'https://discussions.api.brightspace.com/rels/forum',
 		mySubscriptions: 'https://discussions.api.brightspace.com/rels/my-subscriptions',
 		topic: 'https://discussions.api.brightspace.com/rels/topic'
 	},
@@ -154,6 +155,7 @@ export const Rels = {
 		overallLevels: 'https://rubrics.api.brightspace.com/rels/overall-levels'
 	},
 	Surveys: {
+		description: 'https://surveys.api.brightspace.com/rels/description',
 		survey: 'https://surveys.api.brightspace.com/rels/survey'
 	},
 	Alignments: {
@@ -289,9 +291,13 @@ export const Classes = {
 		description: 'description'
 	},
 	surveys: {
+		active: 'active',
+		description: 'description',
+		inactive: 'inactive',
 		survey: 'survey'
 	},
 	text: {
+		annotated: 'annotated',
 		richtext: 'richtext'
 	},
 	users: {
