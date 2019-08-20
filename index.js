@@ -229,7 +229,8 @@ export const Classes = {
 		userAwards: 'user-awards'
 	},
 	checklists: {
-		checklistItem: 'checklist-item'
+		checklistItem: 'checklist-item',
+		description: 'description'
 	},
 	conditions: {
 		section: 'section'
