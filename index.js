@@ -101,6 +101,10 @@ export const Rels = {
 		mySubscriptions: 'https://discussions.api.brightspace.com/rels/my-subscriptions',
 		topic: 'https://discussions.api.brightspace.com/rels/topic'
 	},
+	// Feedback API sub-domain rels
+	Feedback: {
+		applications: 'https://api.brightspace.com/rels/applications',
+	},
 	// Folio API sub-domain rels
 	Folio: {
 		contentItem: 'https://folio.api.brightspace.com/rels/Content',
@@ -273,6 +277,13 @@ export const Classes = {
 		pinned: 'pinned',
 		unpinned: 'unpinned'
 	},
+	feedback: {
+		feedbackApplication: 'feedback-application',
+		feedbackApplications: 'feedback-applications',
+		feedback: 'feedback',
+		feedbackType: 'feedback-type',
+		feedbackSubmission: 'feedback-submission',
+	},
 	grades: {
 		comments: 'comments',
 		description: 'description',
@@ -440,5 +451,8 @@ export const Actions = {
 	},
 	outcomes: {
 		select: 'select'
+	},
+	feedback: {
+		feedback: 'feedback'
 	}
 };
