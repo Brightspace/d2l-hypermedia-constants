@@ -103,7 +103,8 @@ export const Rels = {
 	},
 	// Feedback API sub-domain rels
 	Feedback: {
-		applications: 'https://api.brightspace.com/rels/applications',
+		applications: 'https://feedback.api.brightspace.com/rels/applications',
+		submission: 'https://feedback.api.brightspace.com/rels/feedback-submission',
 	},
 	// Folio API sub-domain rels
 	Folio: {
@@ -453,6 +454,7 @@ export const Actions = {
 		select: 'select'
 	},
 	feedback: {
-		feedback: 'feedback'
+		submit: 'submit-feedback',
+		optOut: 'opt-out'
 	}
 };
