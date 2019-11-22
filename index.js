@@ -34,6 +34,7 @@ export const Rels = {
 	root: 'https://api.brightspace.com/rels/root',
 	richTextEditorConfig: 'https://api.brightspace.com/rels/richtext-editor-config',
 	rubric: 'https://api.brightspace.com/rels/rubric',
+	rubrics: 'https://api.brightspace.com/rels/rubrics',
 	semesters: 'https://api.brightspace.com/rels/semesters',
 	sequence: 'https://api.brightspace.com/rels/sequence',
 	sorts: 'https://api.brightspace.com/rels/sorts',
