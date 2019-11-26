@@ -61,7 +61,8 @@ export const Rels = {
 		feedback: 'https://activities.api.brightspace.com/rels/feedback',
 		activityGrade: 'https://activities.api.brightspace.com/rels/activity-grade',
 		activityHomepage: 'https://activities.api.brightspace.com/rels/activity-homepage',
-		evaluationStatus: 'https://activities.api.brightspace.com/rels/evaluation-status'
+		evaluationStatus: 'https://activities.api.brightspace.com/rels/evaluation-status',
+		associations: 'https://activities.api.brightspace.com/rels/associations'
 	},
 	// Assessments
 	Assessments: {
@@ -158,7 +159,8 @@ export const Rels = {
 		level: 'https://rubrics.api.brightspace.com/rels/level',
 		levels: 'https://rubrics.api.brightspace.com/rels/levels',
 		overallLevel: 'https://rubrics.api.brightspace.com/rels/overall-level',
-		overallLevels: 'https://rubrics.api.brightspace.com/rels/overall-levels'
+		overallLevels: 'https://rubrics.api.brightspace.com/rels/overall-levels',
+		rubric: 'https://rubrics.api.brightspace.com/rels/rubric'
 	},
 	Surveys: {
 		description: 'https://surveys.api.brightspace.com/rels/description',
@@ -207,7 +209,9 @@ export const Classes = {
 		userCourseOfferingActivity: 'user-course-offering-activity-usage',
 		userDiscussionActivity: 'user-discussion-activity',
 		userChecklistActivity: 'user-checklist-activity',
-		userSurveyActivity: 'user-survey-activity'
+		userSurveyActivity: 'user-survey-activity',
+		potentialAssociation: 'potential-association',
+		singleAssociation: 'single-association',
 	},
 	assignments: {
 		annotated: 'annotated',
