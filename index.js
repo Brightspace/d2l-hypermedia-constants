@@ -351,7 +351,8 @@ export const Classes = {
 		selected: 'selected'
 	},
 	alignments: {
-		selected: 'selected'
+		selected: 'selected',
+		indeterminate: 'indeterminate'
 	},
 	outcomes: {
 		assessed: 'assessed',
