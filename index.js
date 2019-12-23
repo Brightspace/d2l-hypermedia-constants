@@ -62,7 +62,8 @@ export const Rels = {
 		activityGrade: 'https://activities.api.brightspace.com/rels/activity-grade',
 		activityHomepage: 'https://activities.api.brightspace.com/rels/activity-homepage',
 		evaluationStatus: 'https://activities.api.brightspace.com/rels/evaluation-status',
-		associations: 'https://activities.api.brightspace.com/rels/associations'
+		associations: 'https://activities.api.brightspace.com/rels/associations',
+		scoreOutOf: 'https://activities.api.brightspace.com/rels/score-out-of',
 	},
 	// Assessments
 	Assessments: {
@@ -202,6 +203,7 @@ export const Classes = {
 		fileActivity: 'file-activity',
 		incomplete: 'incomplete',
 		quizActivity: 'quiz-activity',
+		scoreOutOf: 'score-out-of',
 		userAssignmentActivity: 'user-assignment-activity',
 		userQuizActivity: 'user-quiz-activity',
 		userQuizAttemptActivity: 'user-quiz-attempt-activity',
@@ -408,7 +410,10 @@ export const Actions = {
 		setCatalogImage: 'set-catalog-image'
 	},
 	activities: {
-		selectCustomDateRange: 'select-custom-date-range'
+		selectCustomDateRange: 'select-custom-date-range',
+		scoreOutOf: {
+			update: 'update'
+		}
 	},
 	assignments: {
 		assign: 'assign',
