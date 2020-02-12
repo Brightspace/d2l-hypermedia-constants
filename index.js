@@ -377,7 +377,9 @@ export const Classes = {
 			outcomes: 'user-progress-outcomes',
 			outcome: 'user-progress-outcome',
 			activities: 'user-progress-outcome-activities',
-			activity: 'user-progress-outcome-activity'
+			activity: 'user-progress-outcome-activity',
+			outcomeTree: 'user-progress-outcome-nodes',
+			outcomeTreeNode: 'user-progress-outcome-node'
 		}
 	}
 };
