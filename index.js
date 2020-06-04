@@ -456,7 +456,8 @@ export const Actions = {
 		startUpdateAlignments: 'start-update-alignments',
 		select: 'select',
 		deselect: 'deselect',
-		submit: 'submit'
+		submit: 'submit',
+		deferredSubmit: 'deferred-submit'
 	},
 	outcomes: {
 		select: 'select'
