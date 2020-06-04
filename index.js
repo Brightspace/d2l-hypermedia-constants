@@ -453,6 +453,7 @@ export const Actions = {
 	},
 	alignments: {
 		removeAlignment: 'remove-alignment',
+		deferredRemoveAlignment: 'deferred-remove-alignment',
 		startUpdateAlignments: 'start-update-alignments',
 		select: 'select',
 		deselect: 'deselect',
