@@ -1,14 +1,14 @@
 language: node_js
 node_js: node
 script:
-  - npm run build
+- npm run build
 deploy:
   skip_cleanup: true
   provider: npm
   email: d2ltravisdeploy@d2l.com
   api_key:
-    # d2l-travis-deploy: 288c......5325
-    secure: fl140PgRaU2H6lEQKYFlEqBe4iNSkGU9vjjweTOs+kxnISVKMrBHkvpynVVn1AFAyrA3NzYZ6HO5aA1NGqsfxegw7+vAI6YoqeUaGyUiq8+5Ziiy25xkzJ94IMrkMuxLvqf+RlW9eI5u0hpOeQc+yX7i/BS5SY+F5ZLarbg0MYTKTi4SxHQ3mgyKzQkicWtx18JeTcan2jwegnqY0UBA//fiPcWAlju9ZbeC0e/nz65cvLuhSTHyRg1FRIS7PTlQ6gsmpYcaTFFeZxQop57RuGMtAYasXwfv0FuNMvJ6GlbrovMiS3VvigqsnCjfjnrPSvBUArDS7shkQH3XXyE4pZK3jv55t2M6+9BD+pAe1DkOCkmTVdHsry48EZ5B7igY+4EBzIH97Ya5NAnn4srtEPeYqLwxXIgg8b3/WhkkJc40vyk9sUwVQ1moTgB5+hwuxT55WoO0nnCos4cIjk/aqczXiO8LcZLegoo39qgE8w3VX8zVnqNKkint298pzynLrUZlnp0B0iNW/3KWlobVxkCPMnHWMz4BG8Dfg57vh0lioeoFhIzUTStakeXse1u8q/j0w4uyo2XXh40RuKHgHX71puqx4ycsOrRBDW3/R0B8AV/OKN/+SvgBlmWlcgB6VcWVychyDMwrjM75vhSe0mDw6kulmD/hhVV/bMGb9UI=
+    # 94e1......eee4
+    secure: kpNOYMmbTUWZ0d1YEJN9XV6C4149VRuWNCXteAoY6qTs52U40Pk19nsaBwjnx4AGVS9GF37yG4Iyn8ANMXgpWO+U+v3+AO/qCK+dGBoFlxb1MGH9TQtZDuxrCnPG8+7wc4R+CU4FbonFlu358jzDUCEqqIMRxtRPSdNFgSqQIzOnttNuqFQyD+Lc5sWRLHrbl2pUZKOy64O1XA6gZlU+ig7NFl3TqvivTtSA3g4p8RCk90/9fw6smQe3GEV5tMEjFjH9gjFoee4yW/YvtOBFvdnJgnK5w1VioxVPY0DVK1np5DkAoIZZ5ylVUmuBMX/SDoGP7RpjMyhFWi4CGTLCbIGrfupam1cXSygnw8rw3H8DXvesUneLf5FrC/cZf50LLVvFlk8wqxrBPPFzX2oJqH4LVifgB+pjvyLwS//Jt4xEhj2b0O/KM/er6JW60dtdRJoc/k2rxstSW9ULL0qLumCyNXZazEfZnHM4/LAvKSaZuvXTP2M66nogsgkCmAyKTkZiS/pIJhrQDKFcPbJkjmF99b74HGOWpvT9XOgzUbE1wFu4Blg3BdDWzxMnqLIChlRhcG430C+uN9/Prahs79wR1CdKuV2Y9YJC5TfQp+5qFM/J2e1yHb0s8wxvHrnnCECWL3+Y1c6h7DDuRrH6Zu8fGnMsvamWPwXTkc+W5Lk=
   on:
     tags: true
     repo: Brightspace/d2l-hypermedia-constants
