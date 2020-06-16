@@ -13,6 +13,7 @@ export const Rels = {
 	displayName: 'https://api.brightspace.com/rels/display-name',
 	enrollments: 'https://api.brightspace.com/rels/enrollments',
 	evaluation: 'https://api.brightspace.com/rels/evaluation',
+	feedback: 'https://api.brightspace.com/rels/feedback',
 	filter: 'https://api.brightspace.com/rels/filter',
 	filters: 'https://api.brightspace.com/rels/filters',
 	firstName: 'https://api.brightspace.com/rels/first-name',
