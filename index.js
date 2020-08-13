@@ -60,7 +60,7 @@ export const Rels = {
 		previousPeriod: 'https://activities.api.brightspace.com/rels/previous-period',
 		previousWeek: 'https://activities.api.brightspace.com/rels/previous-week',
 		feedback: 'https://activities.api.brightspace.com/rels/feedback',
-		feedbackAttachments:'https://activities.api.brightspace.com/rels/attachments',
+		feedbackAttachments: 'https://activities.api.brightspace.com/rels/attachments',
 		activityGrade: 'https://activities.api.brightspace.com/rels/activity-grade',
 		activityHomepage: 'https://activities.api.brightspace.com/rels/activity-homepage',
 		evaluationStatus: 'https://activities.api.brightspace.com/rels/evaluation-status',
