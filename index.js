@@ -17,6 +17,7 @@ export const Rels = {
 	filter: 'https://api.brightspace.com/rels/filter',
 	filters: 'https://api.brightspace.com/rels/filters',
 	firstName: 'https://api.brightspace.com/rels/first-name',
+	group: 'https://api.brightspace.com/rels/group',
 	lastName: 'https://api.brightspace.com/rels/last-name',
 	myEnrollments: 'https://api.brightspace.com/rels/my-enrollments',
 	myMeetings: 'https://meetings.api.brightspace.com/rels/my-meetings',
