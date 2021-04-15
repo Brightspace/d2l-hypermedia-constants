@@ -11,6 +11,8 @@ export const Rels = {
 	defaultSearch: 'https://api.brightspace.com/rels/default-search',
 	departments: 'https://api.brightspace.com/rels/departments',
 	displayName: 'https://api.brightspace.com/rels/display-name',
+	email: 'https://api.brightspace.com/rels/email',
+	enrolledUser: 'https://api.brightspace.com/rels/enrolled-user',
 	enrollments: 'https://api.brightspace.com/rels/enrollments',
 	evaluation: 'https://api.brightspace.com/rels/evaluation',
 	feedback: 'https://api.brightspace.com/rels/feedback',
@@ -29,6 +31,7 @@ export const Rels = {
 	organizationHomepage: 'https://api.brightspace.com/rels/organization-homepage',
 	organizationImage: 'https://api.brightspace.com/rels/organization-image',
 	organizations: 'https://api.brightspace.com/rels/organizations',
+	pager: 'https://api.brightspace.com/rels/pager',
 	parentSemester: 'https://api.brightspace.com/rels/parent-semester',
 	profileImage: 'https://api.brightspace.com/rels/profile-image',
 	quiz: 'https://api.brightspace.com/rels/quiz',
@@ -46,6 +49,7 @@ export const Rels = {
 	userProgress: 'https://api.brightspace.com/rels/user-progress',
 	user: 'https://api.brightspace.com/rels/user',
 	users: 'https://api.brightspace.com/rels/users',
+	viewMembers: 'https://api.brightspace.com/rels/view-members',
 	whoami: 'https://api.brightspace.com/rels/whoami',
 	widgetSettings: 'https://api.brightspace.com/rels/widget-settings',
 	// Activities API sub-domain rels
@@ -67,19 +71,28 @@ export const Rels = {
 		activityGrade: 'https://activities.api.brightspace.com/rels/activity-grade',
 		activityHomepage: 'https://activities.api.brightspace.com/rels/activity-homepage',
 		evaluationStatus: 'https://activities.api.brightspace.com/rels/evaluation-status',
-		associations: 'https://activities.api.brightspace.com/rels/associations'
+		associations: 'https://activities.api.brightspace.com/rels/associations',
+		evaluation: 'https://activities.api.brightspace.com/rels/evaluation',
 	},
 	// Assessments
 	Assessments: {
 		assessmentApplication: 'https://assessments.api.brightspace.com/rels/assessment-application',
 		submissionApplication: 'https://assessments.api.brightspace.com/rels/submission-application',
 		assessAllApplication: 'https://assessments.api.brightspace.com/rels/assess-all-application',
-		assessNewApplication: 'https://assessments.api.brightspace.com/rels/assess-new-application'
+		assessNewApplication: 'https://assessments.api.brightspace.com/rels/assess-new-application',
+		activityUsageEditApplication: 'https://assessments.api.brightspace.com/rels/activity-usage-edit-application',
+		assessRubricApplication: 'https://assessments.api.brightspace.com/rels/assessment-rubric-application'
+
 	},
 	// Assignments
 	Assignments: {
 		instructions: 'https://assignments.api.brightspace.com/rels/instructions',
-		attachments: 'https://assignments.api.brightspace.com/rels/attachments'
+		attachments: 'https://assignments.api.brightspace.com/rels/attachments',
+		anonymousMarking: 'https://assignments.api.brightspace.com/rels/anonymous-marking',
+		attachmentList: 'https://assignments.api.brightspace.com/rels/attachment-list',
+		editSpecialAccess: 'https://assignments.api.brightspace.com/rels/edit-special-access-application',
+		submissionList: 'https://assignments.api.brightspace.com/rels/assignment-submission-list',
+		turnItIn: 'https://assignments.api.brightspace.com/rels/turnitin'
 	},
 	// Awards
 	Awards: {
@@ -106,7 +119,8 @@ export const Rels = {
 		description: 'https://discussions.api.brightspace.com/rels/description',
 		forum: 'https://discussions.api.brightspace.com/rels/forum',
 		mySubscriptions: 'https://discussions.api.brightspace.com/rels/my-subscriptions',
-		topic: 'https://discussions.api.brightspace.com/rels/topic'
+		topic: 'https://discussions.api.brightspace.com/rels/topic',
+		thread: 'https://discussions.api.brightspace.com/rels/thread'
 	},
 	// Feedback API sub-domain rels
 	Feedback: {
