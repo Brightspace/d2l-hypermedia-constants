@@ -31,6 +31,7 @@ export const Rels = {
 	organizationHomepage: 'https://api.brightspace.com/rels/organization-homepage',
 	organizationImage: 'https://api.brightspace.com/rels/organization-image',
 	organizations: 'https://api.brightspace.com/rels/organizations',
+	orgDefinedId: 'https://api.brightspace.com/rels/org-defined-id',
 	pager: 'https://api.brightspace.com/rels/pager',
 	parentSemester: 'https://api.brightspace.com/rels/parent-semester',
 	profileImage: 'https://api.brightspace.com/rels/profile-image',
