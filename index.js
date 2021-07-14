@@ -27,6 +27,7 @@ export const Rels = {
 	myOrganizationGrades: 'https://api.brightspace.com/rels/my-organization-grades',
 	myOrganizationAwards: 'https://api.brightspace.com/rels/my-organization-awards',
 	userEnrollment: 'https://api.brightspace.com/rels/user-enrollment',
+	userPronouns: 'https://api.brightspace.com/rels/user-pronouns',
 	organization: 'https://api.brightspace.com/rels/organization',
 	organizationHomepage: 'https://api.brightspace.com/rels/organization-homepage',
 	organizationImage: 'https://api.brightspace.com/rels/organization-image',
