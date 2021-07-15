@@ -202,7 +202,8 @@ export const Rels = {
 		meetingManagementTool: 'https://meetings.api.brightspace.com/rels/meeting-management-tool'
 	},
 	Users: {
-		canonicalUser: 'https://users.api.brightspace.com/rels/canonical-user'
+		canonicalUser: 'https://users.api.brightspace.com/rels/canonical-user',
+		settingsProfileCard: 'https://users.api.brightspace.com/rels/settings/userProfileCard'
 	},
 	UserProgress: {
 		outcomeActivities: 'https://user-progress.api.brightspace.com/rels/outcome-activities',
