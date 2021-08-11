@@ -83,6 +83,7 @@ export const Rels = {
 		assessAllApplication: 'https://assessments.api.brightspace.com/rels/assess-all-application',
 		assessNewApplication: 'https://assessments.api.brightspace.com/rels/assess-new-application',
 		activityUsageEditApplication: 'https://assessments.api.brightspace.com/rels/activity-usage-edit-application',
+		activityUsageViewApplication: 'https://assessments.api.brightspace.com/rels/activity-usage-view-application',
 		assessRubricApplication: 'https://assessments.api.brightspace.com/rels/assessment-rubric-application'
 
 	},
