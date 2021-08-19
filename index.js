@@ -131,6 +131,11 @@ export const Rels = {
 		applications: 'https://feedback.api.brightspace.com/rels/applications',
 		submission: 'https://feedback.api.brightspace.com/rels/feedback-submission',
 	},
+	// Files API sub-domain rels
+    Files: {
+        files: 'https://files.api.brightspace.com/rels/files',
+        file: 'https://files.api.brightspace.com/rels/file'
+    },
 	// Folio API sub-domain rels
 	Folio: {
 		contentItem: 'https://folio.api.brightspace.com/rels/Content',
