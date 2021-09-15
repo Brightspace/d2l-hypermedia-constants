@@ -157,7 +157,8 @@ export const Rels = {
 	},
 	// Quizzes API sub-domain rels
 	Quizzes: {
-		description: 'https://quizzes.api.brightspace.com/rels/description'
+		description: 'https://quizzes.api.brightspace.com/rels/description',
+		quiz: 'https://quizzes.api.brightspace.com/rels/quiz'
 	},
 	// Themes API sub-domain rels
 	Themes: {
