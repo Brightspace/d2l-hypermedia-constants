@@ -335,8 +335,11 @@ export const Classes = {
 		courseOffering: 'course-offering'
 	},
 	quizzes: {
+		description: 'description',
+		endDate: 'end-date',
 		quiz: 'quiz',
-		description: 'description'
+		quizAttemptList: 'quiz-attempt-list',
+		startDate: 'start-date'
 	},
 	surveys: {
 		active: 'active',
