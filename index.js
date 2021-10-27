@@ -158,7 +158,8 @@ export const Rels = {
 	// Quizzes API sub-domain rels
 	Quizzes: {
 		description: 'https://quizzes.api.brightspace.com/rels/description',
-		quiz: 'https://quizzes.api.brightspace.com/rels/quiz'
+		quiz: 'https://quizzes.api.brightspace.com/rels/quiz',
+		timing: 'https://quizzes.api.brightspace.com/rels/timing'
 	},
 	// Themes API sub-domain rels
 	Themes: {
@@ -337,9 +338,12 @@ export const Classes = {
 	quizzes: {
 		description: 'description',
 		endDate: 'end-date',
+		enforced: 'enforced',
 		quiz: 'quiz',
 		quizAttemptList: 'quiz-attempt-list',
-		startDate: 'start-date'
+		recommended: 'recommended',
+		startDate: 'start-date',
+		timeLimitEnforced: 'time-limit-enforced'
 	},
 	surveys: {
 		active: 'active',
