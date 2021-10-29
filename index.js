@@ -76,6 +76,7 @@ export const Rels = {
 		evaluationStatus: 'https://activities.api.brightspace.com/rels/evaluation-status',
 		associations: 'https://activities.api.brightspace.com/rels/associations',
 		evaluation: 'https://activities.api.brightspace.com/rels/evaluation',
+		evaluatorCandidates: 'https://activities.api.brightspace.com/rels/evaluator-candidates'
 	},
 	// Assessments
 	Assessments: {
