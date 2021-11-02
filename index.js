@@ -337,9 +337,11 @@ export const Classes = {
 		courseOffering: 'course-offering'
 	},
 	quizzes: {
+		attempts: 'attempts',
 		description: 'description',
 		endDate: 'end-date',
 		enforced: 'enforced',
+		overallGradeCalculationType: 'overall-grade-calculation-type',
 		quiz: 'quiz',
 		quizAttemptList: 'quiz-attempt-list',
 		recommended: 'recommended',
