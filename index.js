@@ -198,7 +198,8 @@ export const Rels = {
 		survey: 'https://surveys.api.brightspace.com/rels/survey'
 	},
 	Alignments: {
-		alignments: 'https://alignments.api.brightspace.com/rels/alignments'
+		alignments: 'https://alignments.api.brightspace.com/rels/alignments',
+		activityAlignmentsHierarchical: 'https://alignments.api.brightspace.com/rels/activity-alignments-hierarchical'
 	},
 	Achievements: {
 		level: 'https://achievements.api.brightspace.com/rels/level'
