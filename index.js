@@ -77,7 +77,9 @@ export const Rels = {
 		associations: 'https://activities.api.brightspace.com/rels/associations',
 		evaluation: 'https://activities.api.brightspace.com/rels/evaluation',
 		evaluatorCandidates: 'https://activities.api.brightspace.com/rels/evaluator-candidates',
-		learnerCandidates:'https://activities.api.brightspace.com/rels/learner-candidates'
+		learnerCandidates:'https://activities.api.brightspace.com/rels/learner-candidates',
+		selectedEvaluators: 'https://activities.api.brightspace.com/rels/selected-evaluator-candidates',
+		user: 'https://activities.api.brightspace.com/rels/user'
 	},
 	// Assessments
 	Assessments: {
