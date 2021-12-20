@@ -186,6 +186,7 @@ export const Rels = {
 	// Rubrics API sub-domain rels
 	Rubrics: {
 		allowedAssociations: 'https://rubrics.api.brightspace.com/rels/allowed-associations',
+		assessmentCriterion: 'https://assessments.api.brightspace.com/rels/assessment-criterion',
 		criteria: 'https://rubrics.api.brightspace.com/rels/criteria',
 		criteriaGroups: 'https://rubrics.api.brightspace.com/rels/criteria-groups',
 		criterion: 'https://rubrics.api.brightspace.com/rels/criterion',
@@ -379,6 +380,7 @@ export const Classes = {
 		assessmentCriterionCell: 'assessment-criterion-cell',
 		associations: 'associations',
 		criterion: 'criterion',
+		criterionAssessmentLinks: 'criterion-assessment-links',
 		criterionCell: 'criterion-cell',
 		criterionCellSelector: 'criterion-cell-selector',
 		criteriaGroup: 'criteria-group',
