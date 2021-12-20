@@ -84,6 +84,7 @@ export const Rels = {
 	// Assessments
 	Assessments: {
 		assessmentApplication: 'https://assessments.api.brightspace.com/rels/assessment-application',
+		assessmentCriterion: 'https://assessments.api.brightspace.com/rels/assessment-criterion',
 		submissionApplication: 'https://assessments.api.brightspace.com/rels/submission-application',
 		assessAllApplication: 'https://assessments.api.brightspace.com/rels/assess-all-application',
 		assessNewApplication: 'https://assessments.api.brightspace.com/rels/assess-new-application',
@@ -186,7 +187,6 @@ export const Rels = {
 	// Rubrics API sub-domain rels
 	Rubrics: {
 		allowedAssociations: 'https://rubrics.api.brightspace.com/rels/allowed-associations',
-		assessmentCriterion: 'https://assessments.api.brightspace.com/rels/assessment-criterion',
 		criteria: 'https://rubrics.api.brightspace.com/rels/criteria',
 		criteriaGroups: 'https://rubrics.api.brightspace.com/rels/criteria-groups',
 		criterion: 'https://rubrics.api.brightspace.com/rels/criterion',
