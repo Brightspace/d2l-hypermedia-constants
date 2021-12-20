@@ -84,6 +84,7 @@ export const Rels = {
 	// Assessments
 	Assessments: {
 		assessmentApplication: 'https://assessments.api.brightspace.com/rels/assessment-application',
+		assessmentCriterion: 'https://assessments.api.brightspace.com/rels/assessment-criterion',
 		submissionApplication: 'https://assessments.api.brightspace.com/rels/submission-application',
 		assessAllApplication: 'https://assessments.api.brightspace.com/rels/assess-all-application',
 		assessNewApplication: 'https://assessments.api.brightspace.com/rels/assess-new-application',
@@ -379,6 +380,7 @@ export const Classes = {
 		assessmentCriterionCell: 'assessment-criterion-cell',
 		associations: 'associations',
 		criterion: 'criterion',
+		criterionAssessmentLinks: 'criterion-assessment-links',
 		criterionCell: 'criterion-cell',
 		criterionCellSelector: 'criterion-cell-selector',
 		criteriaGroup: 'criteria-group',
