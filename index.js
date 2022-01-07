@@ -160,6 +160,13 @@ export const Rels = {
 		userGrade: 'https://grades.api.brightspace.com/rels/user-grade',
 		weight: 'https://grades.api.brightspace.com/rels/weight'
 	},
+	// Questions API sub-domain rels
+	Questions: {
+		identifier: 'https://questions.api.brightspace.com/rels/identifier',
+		itemBody: 'https://questions.api.brightspace.com/rels/item-body',
+		interaction: 'https://questions.api.brightspace.com/rels/interaction',
+		responseDeclaration: 'https://questions.api.brightspace.com/rels/response-declaration'
+	},
 	// Quizzes API sub-domain rels
 	Quizzes: {
 		description: 'https://quizzes.api.brightspace.com/rels/description',
@@ -340,6 +347,16 @@ export const Classes = {
 	organizations: {
 		completionTracked: 'completion-tracked',
 		courseOffering: 'course-offering'
+	},
+	questions: {
+		candidateResponse: 'candidate-response',
+		correctResponse: 'correct-response',
+		multipleChoice: 'MultipleChoice',
+		multiSelect: 'MultiSelect',
+		questionText: 'questionText',
+		selected: 'selected',
+		simpleChoice: 'simple-choice',
+		value: 'value'
 	},
 	quizzes: {
 		attempts: 'attempts',
