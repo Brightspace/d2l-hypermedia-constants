@@ -348,6 +348,16 @@ export const Classes = {
 		completionTracked: 'completion-tracked',
 		courseOffering: 'course-offering'
 	},
+	questions: {
+		candidateResponse: 'candidate-response',
+		correctResponse: 'correct-response',
+		multipleChoice: 'MultipleChoice',
+		multiSelect: 'MultiSelect',
+		questionText: 'questionText',
+		selected: 'selected',
+		simpleChoice: 'simple-choice',
+		value: 'value'
+	},
 	quizzes: {
 		attempts: 'attempts',
 		description: 'description',
