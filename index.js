@@ -170,6 +170,8 @@ export const Rels = {
 	// Quizzes API sub-domain rels
 	Quizzes: {
 		description: 'https://quizzes.api.brightspace.com/rels/description',
+		question: 'https://quizzes.api.brightspace.com/rels/question',
+		questionResponse: 'https://quizzes.api.brightspace.com/rels/question-response',
 		quiz: 'https://quizzes.api.brightspace.com/rels/quiz',
 		timing: 'https://quizzes.api.brightspace.com/rels/timing'
 	},
