@@ -353,6 +353,7 @@ export const Classes = {
 	questions: {
 		candidateResponse: 'candidate-response',
 		correctResponse: 'correct-response',
+		longAnswer: 'LongAnswer',
 		multipleChoice: 'MultipleChoice',
 		multiSelect: 'MultiSelect',
 		questionText: 'questionText',
