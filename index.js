@@ -170,6 +170,7 @@ export const Rels = {
 	// Quizzes API sub-domain rels
 	Quizzes: {
 		description: 'https://quizzes.api.brightspace.com/rels/description',
+		gradingUser: 'https://api.brightspace.com/rels/grading-user',
 		question: 'https://quizzes.api.brightspace.com/rels/question',
 		questionResponse: 'https://quizzes.api.brightspace.com/rels/question-response',
 		quiz: 'https://quizzes.api.brightspace.com/rels/quiz',
@@ -363,6 +364,7 @@ export const Classes = {
 	},
 	quizzes: {
 		attempts: 'attempts',
+		autograded: 'auto-graded',
 		description: 'description',
 		endDate: 'end-date',
 		enforced: 'enforced',
