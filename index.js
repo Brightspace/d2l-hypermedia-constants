@@ -249,6 +249,7 @@ export const Classes = {
 		fileActivity: 'file-activity',
 		incomplete: 'incomplete',
 		quizActivity: 'quiz-activity',
+		unevaluated: 'Unevaluated',
 		userAssignmentActivity: 'user-assignment-activity',
 		userQuizActivity: 'user-quiz-activity',
 		userQuizAttemptActivity: 'user-quiz-attempt-activity',
@@ -258,6 +259,7 @@ export const Classes = {
 		userChecklistActivity: 'user-checklist-activity',
 		userSurveyActivity: 'user-survey-activity',
 		potentialAssociation: 'potential-association',
+		published: 'Published',
 		singleAssociation: 'single-association',
 	},
 	assignments: {
