@@ -480,6 +480,7 @@ export const Actions = {
 	},
 	organizations: {
 		removeHomepageBanner: 'remove-homepage-banner',
+		searchCourseCollection: 'search-course-collection',
 		setCatalogImage: 'set-catalog-image'
 	},
 	activities: {
