@@ -18,6 +18,7 @@ export const Rels = {
 	feedback: 'https://api.brightspace.com/rels/feedback',
 	filter: 'https://api.brightspace.com/rels/filter',
 	filters: 'https://api.brightspace.com/rels/filters',
+	filtersCollection: 'https://api.brightspace.com/rels/filters/collection',
 	firstName: 'https://api.brightspace.com/rels/first-name',
 	group: 'https://api.brightspace.com/rels/group',
 	lastName: 'https://api.brightspace.com/rels/last-name',
