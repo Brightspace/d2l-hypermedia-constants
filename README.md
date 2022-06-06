@@ -40,17 +40,11 @@ console.log(D2L.Hypermedia.Rels);
 </script>
 ```
 
-## Releases
+## Versioning & Releasing
 
-To generate a new release:
-```shell
-npm version [major|minor|patch] -m "New version: %s"
-git push origin master --tags
-```
+The [incremental-release GitHub Action](https://github.com/BrightspaceUI/actions/tree/main/incremental-release) is called from the `release.yml` GitHub Action workflow to handle version changes and releasing.
 
-This will update the version in the package.json file, commit that, and generate a new tag.
-
-When Travis CI runs on the tagged release, it will be deployed to NPM.
+When a PR is merged, a minor version bump will happen automatically, a release will be created, and the new version will be published to NPM.
 
 ## Coding styles
 
