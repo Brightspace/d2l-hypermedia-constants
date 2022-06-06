@@ -365,6 +365,7 @@ export const Classes = {
 		questionText: 'questionText',
 		selected: 'selected',
 		simpleChoice: 'simple-choice',
+		trueFalse: 'TrueFalse',
 		value: 'value'
 	},
 	quizzes: {
