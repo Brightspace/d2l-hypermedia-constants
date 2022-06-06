@@ -14,6 +14,11 @@
   "version": "6.67.0",
   "main": "dist/index.js",
   "module": "index.js",
+  "files": [
+    "/dist",
+    "d2l-hypermedia-constants.js",
+    "index.js"
+  ],
   "scripts": {
     "build": "babel index.js --out-dir ./dist"
   },
