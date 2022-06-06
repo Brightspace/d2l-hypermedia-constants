@@ -7,9 +7,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Brightspace/d2l-hm-constants-behavior.git"
+    "url": "git+https://github.com/Brightspace/d2l-hypermedia-constants.git"
   },
-  "homepage": "https://github.com/Brightspace/d2l-hm-constants-behavior#readme",
+  "homepage": "https://github.com/Brightspace/d2l-hypermedia-constants#readme",
   "name": "d2l-hypermedia-constants",
   "version": "6.69.0",
   "main": "dist/index.js",
@@ -25,7 +25,7 @@
   "author": "D2L Corporation",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/Brightspace/d2l-hm-constants-behavior/issues"
+    "url": "https://github.com/Brightspace/d2l-hypermedia-constants/issues"
   },
   "devDependencies": {
     "@babel/cli": "^7.1.5",
