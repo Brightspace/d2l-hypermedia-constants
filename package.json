@@ -32,8 +32,5 @@
     "@babel/core": "^7.1.5",
     "@babel/preset-env": "^7.1.5",
     "babel-plugin-add-module-exports": "^1.0.0"
-  },
-  "dependencies": {
-    "d2l-hypermedia-constants": "^6.71.0"
   }
 }
