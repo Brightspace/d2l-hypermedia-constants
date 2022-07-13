@@ -384,7 +384,8 @@ export const Classes = {
 		quizAttemptList: 'quiz-attempt-list',
 		recommended: 'recommended',
 		startDate: 'start-date',
-		timeLimitEnforced: 'time-limit-enforced'
+		timeLimitEnforced: 'time-limit-enforced',
+		notimelimit: 'notimelimit'
 	},
 	surveys: {
 		active: 'active',
