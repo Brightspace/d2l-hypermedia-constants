@@ -122,7 +122,19 @@ export const Rels = {
 	Conditions: {
 		conditions: 'https://conditions.api.brightspace.com/rels/conditions'
 	},
-	Content: {},
+	Content: {
+		moduleEntity: 'https://modules.api.brightspace.com/rels/content-module',
+		weblinkEntity: 'https://weblinks.api.brightspace.com/rels/content-weblink',
+		ltilinkEntity: 'https://weblinks.api.brightspace.com/rels/content-ltilink',
+		ltilinkFrameOptionsEntity: 'https://content.api.brightspace.com/rels/frame-options',
+		contentFileEntity: 'https://content.api.brightspace.com/rels/content-file',
+		contentScormActivityEntity: 'https://weblinks.api.brightspace.com/rels/content-scormActivity',
+		contentImportedScormActivityEntity: 'https://weblinks.api.brightspace.com/rels/content-importedScormActivity',
+		contentLorActivityEntity: 'https://weblinks.api.brightspace.com/rels/content-lorActivity',
+		lessonViewPage: 'https://content.api.brightspace.com/rels/lesson-view-page',
+		htmlTemplates: 'https://content.api.brightspace.com/rels/content-html-templates',
+		mediaCaptions: 'https://content.api.brightspace.com/rels/content-media-captions'
+	},
 	// Parents API sub-domain rels
 	Parents: {
 		allChildren: 'https://parents.api.brightspace.com/rels/all-my-children'
