@@ -370,13 +370,16 @@ export const Classes = {
 		courseOffering: 'course-offering'
 	},
 	questions: {
+		allOrNothing: 'AllOrNothing',
 		candidateResponse: 'candidate-response',
 		correctResponse: 'correct-response',
+		itemGrading: 'item-grading',
 		longAnswer: 'LongAnswer',
 		mapping: 'mapping',
 		mapEntry: 'map-entry',
 		multipleChoice: 'MultipleChoice',
 		multiSelect: 'MultiSelect',
+		pointsPerBlank: 'PointsPerBlank',
 		questionText: 'questionText',
 		selected: 'selected',
 		shortAnswer: 'ShortAnswer',
