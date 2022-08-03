@@ -381,6 +381,7 @@ export const Classes = {
 		multiSelect: 'MultiSelect',
 		pointsPerBlank: 'PointsPerBlank',
 		questionText: 'questionText',
+		retaken: 'retaken',
 		selected: 'selected',
 		shortAnswer: 'ShortAnswer',
 		simpleChoice: 'simple-choice',
