@@ -386,7 +386,8 @@ export const Classes = {
 		simpleChoice: 'simple-choice',
 		textEntryInteraction: 'text-entry-interaction',
 		trueFalse: 'TrueFalse',
-		value: 'value'
+		value: 'value',
+		retaken: 'retaken'
 	},
 	quizzes: {
 		attempts: 'attempts',
@@ -400,8 +401,7 @@ export const Classes = {
 		recommended: 'recommended',
 		startDate: 'start-date',
 		timeLimitEnforced: 'time-limit-enforced',
-		notimelimit: 'notimelimit',
-		retaken: 'retaken'
+		notimelimit: 'notimelimit'
 	},
 	surveys: {
 		active: 'active',
