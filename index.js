@@ -381,13 +381,13 @@ export const Classes = {
 		multiSelect: 'MultiSelect',
 		pointsPerBlank: 'PointsPerBlank',
 		questionText: 'questionText',
+		retaken: 'retaken',
 		selected: 'selected',
 		shortAnswer: 'ShortAnswer',
 		simpleChoice: 'simple-choice',
 		textEntryInteraction: 'text-entry-interaction',
 		trueFalse: 'TrueFalse',
-		value: 'value',
-		retaken: 'retaken'
+		value: 'value'
 	},
 	quizzes: {
 		attempts: 'attempts',
