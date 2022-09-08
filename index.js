@@ -372,6 +372,7 @@ export const Classes = {
 		allOrNothing: 'AllOrNothing',
 		candidateResponse: 'candidate-response',
 		correctResponse: 'correct-response',
+		fillInTheBlank: 'FillInTheBlank',
 		itemGrading: 'item-grading',
 		longAnswer: 'LongAnswer',
 		mapping: 'mapping',
@@ -384,6 +385,7 @@ export const Classes = {
 		selected: 'selected',
 		shortAnswer: 'ShortAnswer',
 		simpleChoice: 'simple-choice',
+		text: 'text',
 		textEntryInteraction: 'text-entry-interaction',
 		trueFalse: 'TrueFalse',
 		value: 'value'
