@@ -177,6 +177,7 @@ export const Rels = {
 	},
 	// Questions API sub-domain rels
 	Questions: {
+		answer: 'https://questions.api.brightspace.com/rels/answer',
 		identifier: 'https://questions.api.brightspace.com/rels/identifier',
 		itemBody: 'https://questions.api.brightspace.com/rels/item-body',
 		interaction: 'https://questions.api.brightspace.com/rels/interaction',
