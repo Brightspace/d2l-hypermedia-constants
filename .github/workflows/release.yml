@@ -28,8 +28,5 @@ jobs:
         with:
           DEFAULT_INCREMENT: minor
           GITHUB_TOKEN: ${{ secrets.D2L_GITHUB_TOKEN }}
-      - name: Publish to NPM
-        if: steps.incremental-release.outputs.VERSION != ''
-        run: npm publish
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NPM: true
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
