@@ -380,7 +380,13 @@ export const Classes = {
 		quizAttemptList: 'quiz-attempt-list',
 		recommended: 'recommended',
 		startDate: 'start-date',
+<<<<<<< Updated upstream
 		timeLimitEnforced: 'time-limit-enforced'
+=======
+		timeLimitEnforced: 'time-limit-enforced',
+		notimelimit: 'notimelimit',
+		autosubmit: 'autosubmit'
+>>>>>>> Stashed changes
 	},
 	surveys: {
 		active: 'active',
