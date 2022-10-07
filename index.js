@@ -403,7 +403,8 @@ export const Classes = {
 		recommended: 'recommended',
 		startDate: 'start-date',
 		timeLimitEnforced: 'time-limit-enforced',
-		notimelimit: 'notimelimit'
+		notimelimit: 'notimelimit',
+		autosubmit: 'autosubmit'
 	},
 	surveys: {
 		active: 'active',
