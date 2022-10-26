@@ -380,7 +380,10 @@ export const Classes = {
 		quizAttemptList: 'quiz-attempt-list',
 		recommended: 'recommended',
 		startDate: 'start-date',
-		timeLimitEnforced: 'time-limit-enforced'
+		timeLimitEnforced: 'time-limit-enforced',
+		notimelimit: 'notimelimit',
+		autosubmit: 'autosubmit',
+		withTimeLimitType: 'with-time-limit-type'
 	},
 	surveys: {
 		active: 'active',
