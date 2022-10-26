@@ -404,7 +404,8 @@ export const Classes = {
 		startDate: 'start-date',
 		timeLimitEnforced: 'time-limit-enforced',
 		notimelimit: 'notimelimit',
-		autosubmit: 'autosubmit'
+		autosubmit: 'autosubmit',
+		withTimeLimitType: 'with-time-limit-type'
 	},
 	surveys: {
 		active: 'active',
