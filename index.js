@@ -41,7 +41,6 @@ export const Rels = {
 	restricted: 'https://api.brightspace.com/rels/restricted',
 	role: 'https://api.brightspace.com/rels/role',
 	root: 'https://api.brightspace.com/rels/root',
-	richTextEditorConfig: 'https://api.brightspace.com/rels/richtext-editor-config',
 	rubric: 'https://api.brightspace.com/rels/rubric',
 	rubrics: 'https://api.brightspace.com/rels/rubrics',
 	semesters: 'https://api.brightspace.com/rels/semesters',
@@ -122,7 +121,19 @@ export const Rels = {
 	Conditions: {
 		conditions: 'https://conditions.api.brightspace.com/rels/conditions'
 	},
-	Content: {},
+	Content: {
+		moduleEntity: 'https://modules.api.brightspace.com/rels/content-module',
+		weblinkEntity: 'https://weblinks.api.brightspace.com/rels/content-weblink',
+		ltilinkEntity: 'https://weblinks.api.brightspace.com/rels/content-ltilink',
+		ltilinkFrameOptionsEntity: 'https://content.api.brightspace.com/rels/frame-options',
+		contentFileEntity: 'https://content.api.brightspace.com/rels/content-file',
+		contentScormActivityEntity: 'https://weblinks.api.brightspace.com/rels/content-scormActivity',
+		contentImportedScormActivityEntity: 'https://weblinks.api.brightspace.com/rels/content-importedScormActivity',
+		contentLorActivityEntity: 'https://weblinks.api.brightspace.com/rels/content-lorActivity',
+		lessonViewPage: 'https://content.api.brightspace.com/rels/lesson-view-page',
+		htmlTemplates: 'https://content.api.brightspace.com/rels/content-html-templates',
+		mediaCaptions: 'https://content.api.brightspace.com/rels/content-media-captions'
+	},
 	// Parents API sub-domain rels
 	Parents: {
 		allChildren: 'https://parents.api.brightspace.com/rels/all-my-children'
@@ -166,6 +177,7 @@ export const Rels = {
 	},
 	// Questions API sub-domain rels
 	Questions: {
+		answer: 'https://questions.api.brightspace.com/rels/answer',
 		identifier: 'https://questions.api.brightspace.com/rels/identifier',
 		itemBody: 'https://questions.api.brightspace.com/rels/item-body',
 		interaction: 'https://questions.api.brightspace.com/rels/interaction',
@@ -358,14 +370,24 @@ export const Classes = {
 		courseOffering: 'course-offering'
 	},
 	questions: {
+		allOrNothing: 'AllOrNothing',
 		candidateResponse: 'candidate-response',
 		correctResponse: 'correct-response',
+		fillInTheBlank: 'FillInTheBlank',
+		itemGrading: 'item-grading',
 		longAnswer: 'LongAnswer',
+		mapping: 'mapping',
+		mapEntry: 'map-entry',
 		multipleChoice: 'MultipleChoice',
 		multiSelect: 'MultiSelect',
+		pointsPerBlank: 'PointsPerBlank',
 		questionText: 'questionText',
+		retaken: 'retaken',
 		selected: 'selected',
+		shortAnswer: 'ShortAnswer',
 		simpleChoice: 'simple-choice',
+		text: 'text',
+		textEntryInteraction: 'text-entry-interaction',
 		trueFalse: 'TrueFalse',
 		value: 'value'
 	},
