@@ -399,6 +399,7 @@ export const Classes = {
 		enforced: 'enforced',
 		overallGradeCalculationType: 'overall-grade-calculation-type',
 		quiz: 'quiz',
+		quizAttempt: 'quiz-attempt',
 		quizAttemptList: 'quiz-attempt-list',
 		recommended: 'recommended',
 		startDate: 'start-date',
