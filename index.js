@@ -82,7 +82,8 @@ export const Rels = {
 		learnerCandidates:'https://activities.api.brightspace.com/rels/learner-candidates',
 		publishersCandidates: 'https://activities.api.brightspace.com/rels/publisher-candidates',
 		selectedPublishers: 'https://activities.api.brightspace.com/rels/selected-publisher-candidates',
-		user: 'https://activities.api.brightspace.com/rels/user'
+		user: 'https://activities.api.brightspace.com/rels/user',
+		evaluatorMapping: 'https://activities.api.brightspace.com/rels/evaluator-mapping'
 	},
 	// Assessments
 	Assessments: {
