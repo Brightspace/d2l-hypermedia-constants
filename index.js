@@ -265,6 +265,7 @@ export const Classes = {
 		feedbackDate: 'feedback-date',
 		fileActivity: 'file-activity',
 		incomplete: 'incomplete',
+		questionActivity: 'question-activity',
 		quizActivity: 'quiz-activity',
 		unevaluated: 'Unevaluated',
 		userAssignmentActivity: 'user-assignment-activity',
