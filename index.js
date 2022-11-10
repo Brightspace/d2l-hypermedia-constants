@@ -454,6 +454,7 @@ export const Classes = {
 		selected: 'selected'
 	},
 	alignments: {
+		alignment: 'alignment',
 		selected: 'selected',
 		indeterminate: 'indeterminate'
 	},
