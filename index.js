@@ -482,6 +482,7 @@ export const Classes = {
 			outcome: 'user-progress-outcome',
 			activities: 'user-progress-outcome-activities',
 			activity: 'user-progress-outcome-activity',
+			activityTrend: 'user-outcomes-activity-trend',
 			outcomeTree: 'user-progress-outcome-nodes',
 			outcomeTreeNode: 'user-progress-outcome-node'
 		}
