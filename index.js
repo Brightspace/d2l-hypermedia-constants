@@ -191,6 +191,7 @@ export const Rels = {
 		question: 'https://quizzes.api.brightspace.com/rels/question',
 		questionResponse: 'https://quizzes.api.brightspace.com/rels/question-response',
 		quiz: 'https://quizzes.api.brightspace.com/rels/quiz',
+		section: 'https://quizzes.api.brightspace.com/rels/quiz-section',
 		timing: 'https://quizzes.api.brightspace.com/rels/timing'
 	},
 	// Themes API sub-domain rels
@@ -398,12 +399,15 @@ export const Classes = {
 		autograded: 'auto-graded',
 		description: 'description',
 		endDate: 'end-date',
+		endSection: 'end-section',
 		enforced: 'enforced',
 		overallGradeCalculationType: 'overall-grade-calculation-type',
+		questionResponse: 'question-response',
 		quiz: 'quiz',
 		quizAttempt: 'quiz-attempt',
 		quizAttemptList: 'quiz-attempt-list',
 		recommended: 'recommended',
+		section: 'section',
 		startDate: 'start-date',
 		timeLimitEnforced: 'time-limit-enforced',
 		notimelimit: 'notimelimit',
