@@ -90,15 +90,16 @@ export const Rels = {
 	},
 	// Assessments
 	Assessments: {
-		assessmentApplication: 'https://assessments.api.brightspace.com/rels/assessment-application',
-		assessmentCriterion: 'https://assessments.api.brightspace.com/rels/assessment-criterion',
-		submissionApplication: 'https://assessments.api.brightspace.com/rels/submission-application',
-		assessAllApplication: 'https://assessments.api.brightspace.com/rels/assess-all-application',
-		assessNewApplication: 'https://assessments.api.brightspace.com/rels/assess-new-application',
 		activityUsageEditApplication: 'https://assessments.api.brightspace.com/rels/activity-usage-edit-application',
 		activityUsageViewApplication: 'https://assessments.api.brightspace.com/rels/activity-usage-view-application',
 		activityUsageViewEventLog: 'https://assessments.api.brightspace.com/rels/activity-usage-view-event-log',
-		assessRubricApplication: 'https://assessments.api.brightspace.com/rels/assessment-rubric-application'
+		assessAllApplication: 'https://assessments.api.brightspace.com/rels/assess-all-application',
+		assessmentApplication: 'https://assessments.api.brightspace.com/rels/assessment-application',
+		assessmentCriterion: 'https://assessments.api.brightspace.com/rels/assessment-criterion',
+		assessmentOverallLevel: 'https://assessments.api.brightspace.com/rels/assessment-overall-level',
+		assessNewApplication: 'https://assessments.api.brightspace.com/rels/assess-new-application',
+		assessRubricApplication: 'https://assessments.api.brightspace.com/rels/assessment-rubric-application',
+		submissionApplication: 'https://assessments.api.brightspace.com/rels/submission-application'
 	},
 	// Assignments
 	Assignments: {
@@ -238,6 +239,7 @@ export const Rels = {
 		activityAlignmentsHierarchical: 'https://alignments.api.brightspace.com/rels/activity-alignments-hierarchical'
 	},
 	Achievements: {
+		demonstration: 'https://achievements.api.brightspace.com/rels/demonstration',
 		level: 'https://achievements.api.brightspace.com/rels/level'
 	},
 	Outcomes: {
@@ -345,9 +347,10 @@ export const Classes = {
 		startDate: 'start-date'
 	},
 	discussions: {
-		discussion: 'discussion',
-		topic: 'topic',
 		description: 'description',
+		discussion: 'discussion',
+		post: 'post',
+		topic: 'topic',
 		unlocked: 'unlocked'
 	},
 	enrollments: {
