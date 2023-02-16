@@ -1,6 +1,7 @@
 export const Rels = {
 	// default Brightspace domain rels
 	assessment: 'https://api.brightspace.com/rels/assessment',
+	assessorUser: 'https://api.brightspace.com/rels/assessor-user',
 	assignment: 'https://api.brightspace.com/rels/assignment',
 	cachePrimer: 'https://api.brightspace.com/rels/cache-primer',
 	color: 'https://api.brightspace.com/rels/color',
@@ -23,6 +24,7 @@ export const Rels = {
 	group: 'https://api.brightspace.com/rels/group',
 	lastName: 'https://api.brightspace.com/rels/last-name',
 	learningObjectiveApplication: 'https://api.brightspace.com/rels/learning-objective-application',
+	lmsSource: 'https://api.brightspace.com/rels/lms-source',
 	myEnrollments: 'https://api.brightspace.com/rels/my-enrollments',
 	myMeetings: 'https://meetings.api.brightspace.com/rels/my-meetings',
 	myNotifications: 'https://notifications.api.brightspace.com/rels/my-notifications',
@@ -91,6 +93,7 @@ export const Rels = {
 	// Assessments
 	Assessments: {
 		activityUsageEditApplication: 'https://assessments.api.brightspace.com/rels/activity-usage-edit-application',
+		activityUsagePreviewApplication: 'https://assessments.api.brightspace.com/rels/activity-usage-preview-application',
 		activityUsageViewApplication: 'https://assessments.api.brightspace.com/rels/activity-usage-view-application',
 		activityUsageViewEventLog: 'https://assessments.api.brightspace.com/rels/activity-usage-view-event-log',
 		assessAllApplication: 'https://assessments.api.brightspace.com/rels/assess-all-application',
@@ -99,7 +102,8 @@ export const Rels = {
 		assessmentOverallLevel: 'https://assessments.api.brightspace.com/rels/assessment-overall-level',
 		assessNewApplication: 'https://assessments.api.brightspace.com/rels/assess-new-application',
 		assessRubricApplication: 'https://assessments.api.brightspace.com/rels/assessment-rubric-application',
-		submissionApplication: 'https://assessments.api.brightspace.com/rels/submission-application'
+		submissionApplication: 'https://assessments.api.brightspace.com/rels/submission-application',
+		userProgress: 'https://assessments.api.brightspace.com/rels/user-progress'
 	},
 	// Assignments
 	Assignments: {
@@ -148,6 +152,7 @@ export const Rels = {
 		description: 'https://discussions.api.brightspace.com/rels/description',
 		forum: 'https://discussions.api.brightspace.com/rels/forum',
 		mySubscriptions: 'https://discussions.api.brightspace.com/rels/my-subscriptions',
+		post: 'https://discussions.api.brightspace.com/rels/post',
 		topic: 'https://discussions.api.brightspace.com/rels/topic',
 		thread: 'https://discussions.api.brightspace.com/rels/thread'
 	},
@@ -287,12 +292,19 @@ export const Classes = {
 		published: 'Published',
 		singleAssociation: 'single-association',
 	},
+	alignments: {
+		alignment: 'alignment',
+		selected: 'selected',
+		indeterminate: 'indeterminate'
+	},
 	assignments: {
+		actorAssignmentActivity: 'actor-assignment-activity',
 		annotated: 'annotated',
 		assignment: 'assignment',
 		assignmentSubmission: 'assignment-submission',
 		attachment: 'attachment',
 		attachmentList: 'attachment-list',
+		checked: 'checked',
 		instructions: 'instructions',
 		file: 'file',
 		latest: 'latest',
@@ -315,6 +327,9 @@ export const Classes = {
 	checklists: {
 		checklistItem: 'checklist-item',
 		description: 'description'
+	},
+	coa: {
+		checkpointItem: 'checkpoint-item'
 	},
 	conditions: {
 		section: 'section'
@@ -347,11 +362,15 @@ export const Classes = {
 		startDate: 'start-date'
 	},
 	discussions: {
+		actorDiscussionActivity: 'actor-discussion-activity',
 		description: 'description',
 		discussion: 'discussion',
+		fivestarRating: 'fivestar-rating',
 		post: 'post',
 		topic: 'topic',
-		unlocked: 'unlocked'
+		unlocked: 'unlocked',
+		upvoteDownvoteRating: 'upvotedownvote-rating',
+		upvoteOnlyRating: 'upvoteonly-rating'
 	},
 	enrollments: {
 		enrollment: 'enrollment',
@@ -407,12 +426,14 @@ export const Classes = {
 		value: 'value'
 	},
 	quizzes: {
+		actorQuizActivity: 'actor-quiz-activity',
 		attempts: 'attempts',
 		autograded: 'auto-graded',
 		description: 'description',
 		endDate: 'end-date',
 		endSection: 'end-section',
 		enforced: 'enforced',
+		evidenceEntity: 'evidence-entity',
 		overallGradeCalculationType: 'overall-grade-calculation-type',
 		questionPool: 'question-pool',
 		questionResponse: 'question-response',
@@ -451,6 +472,7 @@ export const Classes = {
 	},
 	rubrics: {
 		analytic: 'analytic',
+		archived: 'archived',
 		assessmentCriterionCell: 'assessment-criterion-cell',
 		associations: 'associations',
 		criterion: 'criterion',
@@ -469,11 +491,6 @@ export const Classes = {
 		overridden: 'overridden',
 		percentage: 'percentage',
 		selected: 'selected'
-	},
-	alignments: {
-		alignment: 'alignment',
-		selected: 'selected',
-		indeterminate: 'indeterminate'
 	},
 	outcomes: {
 		assessed: 'assessed',
@@ -507,6 +524,52 @@ export const Classes = {
 };
 
 export const Actions = {
+	activities: {
+		selectCustomDateRange: 'select-custom-date-range'
+	},
+	alignments: {
+		removeAlignment: 'remove-alignment',
+		deferredRemoveAlignment: 'deferred-remove-alignment',
+		startUpdateAlignments: 'start-update-alignments',
+		select: 'select',
+		deselect: 'deselect',
+		submit: 'submit',
+		deferredSubmit: 'deferred-submit'
+	},
+	assessments: {
+		discard: 'discard',
+		publish: 'publish',
+		restoreGrade: 'RestoreGrade',
+		retract: 'retract',
+		saveAnnotations: 'SaveAnnotations',
+		saveDraft: 'save-draft',
+		saveFeedback: 'SaveFeedback',
+		saveGrade: 'SaveGrade',
+		saveScore: 'SaveScore',
+		update: 'update'
+	},
+	assignments: {
+		assign: 'assign',
+		delete: 'delete',
+		toggleFlagged: 'ToggleFlagged',
+		toggleRead: 'ToggleRead'
+	},
+	attachments: {
+		addAudioNote: 'add-audio-note',
+		addFile: 'add-file',
+		addLink: 'add-link',
+		addLinkGoogleDrive: 'add-link-google-drive',
+		addLinkOneDrive: 'add-link-one-drive',
+		addVideoNote: 'add-video-note',
+		removeFeedbackAttachment: 'delete',
+		saveFeedbackAttachment: 'add-file',
+		saveFeedbackAttachmentLink: 'add-link',
+	},
+	digest: {
+		subscribeToParentNotifications: 'subscribe-to-parent-notifications',
+		skipSubscribeToParentNotifications: 'skip-subscribe-to-parent-notifications',
+		unsubscribeToParentNotifications: 'unsubscribe-to-parent-notifications'
+	},
 	enrollments: {
 		addDepartmentFilter: 'add-department-filter',
 		addSemesterFilter: 'add-semester-filter',
@@ -527,17 +590,9 @@ export const Actions = {
 			removeFilter: 'remove-filter'
 		}
 	},
-	organizations: {
-		removeHomepageBanner: 'remove-homepage-banner',
-		searchCourseCollection: 'search-course-collection',
-		setCatalogImage: 'set-catalog-image'
-	},
-	activities: {
-		selectCustomDateRange: 'select-custom-date-range'
-	},
-	assignments: {
-		assign: 'assign',
-		delete: 'delete'
+	feedback: {
+		submit: 'submit-feedback',
+		optOut: 'opt-out'
 	},
 	notifications: {
 		getCarrierClass: 'get-carrier',
@@ -566,28 +621,26 @@ export const Actions = {
 			update: 'update'
 		}
 	},
-	digest: {
-		subscribeToParentNotifications: 'subscribe-to-parent-notifications',
-		skipSubscribeToParentNotifications: 'skip-subscribe-to-parent-notifications',
-		unsubscribeToParentNotifications: 'unsubscribe-to-parent-notifications'
-	},
-	rubrics: {
-		selectCriterionCell: 'select-criterion-cell'
-	},
-	alignments: {
-		removeAlignment: 'remove-alignment',
-		deferredRemoveAlignment: 'deferred-remove-alignment',
-		startUpdateAlignments: 'start-update-alignments',
-		select: 'select',
-		deselect: 'deselect',
-		submit: 'submit',
-		deferredSubmit: 'deferred-submit'
+	organizations: {
+		removeHomepageBanner: 'remove-homepage-banner',
+		searchCourseCollection: 'search-course-collection',
+		setCatalogImage: 'set-catalog-image'
 	},
 	outcomes: {
+		commitChanges: 'commit-changes',
+		discardChanges: 'discard-changes',
 		select: 'select'
 	},
-	feedback: {
-		submit: 'submit-feedback',
-		optOut: 'opt-out'
+	quizzes: {
+		autoGrade: 'auto-grade'
+	},
+	rubrics: {
+		commitChanges: 'commit-changes',
+		discardChanges: 'discard-changes',
+		selectCriterionCell: 'select-criterion-cell'
+	},
+	tii: {
+		refresh: 'TurnitinRefresh',
+		submit: 'TurnitinSubmit'
 	}
 };
