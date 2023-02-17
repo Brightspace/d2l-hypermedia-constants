@@ -289,7 +289,7 @@ export const Classes = {
 		userChecklistActivity: 'user-checklist-activity',
 		userSurveyActivity: 'user-survey-activity',
 		potentialAssociation: 'potential-association',
-		published: 'Published',
+		published: 'published',
 		singleAssociation: 'single-association',
 	},
 	alignments: {
@@ -490,6 +490,7 @@ export const Classes = {
 		numeric: 'numeric',
 		overridden: 'overridden',
 		percentage: 'percentage',
+		published: 'published',
 		selected: 'selected'
 	},
 	outcomes: {
