@@ -309,6 +309,7 @@ export const Classes = {
 		file: 'file',
 		latest: 'latest',
 		link: 'link',
+		published: 'published',
 		submissionComment: 'submission-comment',
 		submissionDate: 'submission-date',
 		submissionList: 'assignment-submission-list'
@@ -490,6 +491,7 @@ export const Classes = {
 		numeric: 'numeric',
 		overridden: 'overridden',
 		percentage: 'percentage',
+		published: 'published',
 		selected: 'selected'
 	},
 	outcomes: {
