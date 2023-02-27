@@ -538,18 +538,6 @@ export const Actions = {
 		submit: 'submit',
 		deferredSubmit: 'deferred-submit'
 	},
-	assessments: {
-		discard: 'discard',
-		publish: 'publish',
-		restoreGrade: 'RestoreGrade',
-		retract: 'retract',
-		saveAnnotations: 'SaveAnnotations',
-		saveDraft: 'save-draft',
-		saveFeedback: 'SaveFeedback',
-		saveGrade: 'SaveGrade',
-		saveScore: 'SaveScore',
-		update: 'update'
-	},
 	assignments: {
 		assign: 'assign',
 		delete: 'delete',
@@ -591,6 +579,20 @@ export const Actions = {
 			clearRoleFilters: 'clear-role-filters',
 			removeFilter: 'remove-filter'
 		}
+	},
+	evaluation: {
+		discard: 'discard',
+		discardAnnotations: 'RemoveAnnotations',
+		publish: 'publish',
+		restoreGrade: 'RestoreGrade',
+		retract: 'retract',
+		saveAnnotations: 'SaveAnnotations',
+		saveDraft: 'save-draft',
+		saveFeedback: 'SaveFeedback',
+		saveGrade: 'SaveGrade',
+		saveScore: 'SaveScore',
+		setActiveScoringRubric: 'SetActiveScoringRubric',
+		update: 'update'
 	},
 	feedback: {
 		submit: 'submit-feedback',
