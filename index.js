@@ -16,6 +16,7 @@ export const Rels = {
 	enrolledUser: 'https://api.brightspace.com/rels/enrolled-user',
 	enrollments: 'https://api.brightspace.com/rels/enrollments',
 	evaluation: 'https://api.brightspace.com/rels/evaluation',
+	evaluator: 'https://api.brightspace.com/rels/evaluator',
 	feedback: 'https://api.brightspace.com/rels/feedback',
 	filter: 'https://api.brightspace.com/rels/filter',
 	filters: 'https://api.brightspace.com/rels/filters',
@@ -81,6 +82,7 @@ export const Rels = {
 		evaluationStatus: 'https://activities.api.brightspace.com/rels/evaluation-status',
 		associations: 'https://activities.api.brightspace.com/rels/associations',
 		evaluation: 'https://activities.api.brightspace.com/rels/evaluation',
+		explicitEvaluation: 'https://activities.api.brightspace.com/rels/explicit-evaluation',
 		advancedAssessment: 'https://activities.api.brightspace.com/rels/advanced-assessment',
 		evaluatorCandidates: 'https://activities.api.brightspace.com/rels/evaluator-candidates',
 		selectedEvaluators: 'https://activities.api.brightspace.com/rels/selected-evaluator-candidates',
@@ -377,6 +379,11 @@ export const Classes = {
 		enrollment: 'enrollment',
 		pinned: 'pinned',
 		unpinned: 'unpinned'
+	},
+	explicitEvaluations: {
+		aggregatedEvaluation: 'aggregated-evaluation',
+		explicitEvaluationEntity: 'explicit-evaluation-entity',
+		explicitEvaluations: 'explicit-evaluations'
 	},
 	feedback: {
 		feedbackApplication: 'feedback-application',
