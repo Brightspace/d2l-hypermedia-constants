@@ -593,6 +593,7 @@ export const Actions = {
 		publish: 'publish',
 		restoreGrade: 'RestoreGrade',
 		retract: 'retract',
+		save: 'save',
 		saveAnnotations: 'SaveAnnotations',
 		saveDraft: 'save-draft',
 		saveFeedback: 'SaveFeedback',
