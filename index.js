@@ -591,6 +591,7 @@ export const Actions = {
 		discard: 'discard',
 		discardAnnotations: 'RemoveAnnotations',
 		publish: 'publish',
+		readyAggregate: 'ready-aggregate',
 		restoreGrade: 'RestoreGrade',
 		retract: 'retract',
 		save: 'save',
