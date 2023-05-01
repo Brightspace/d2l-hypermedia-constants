@@ -383,7 +383,8 @@ export const Classes = {
 	explicitEvaluations: {
 		aggregatedEvaluation: 'aggregated-evaluation',
 		explicitEvaluationEntity: 'explicit-evaluation-entity',
-		explicitEvaluations: 'explicit-evaluations'
+		explicitEvaluations: 'explicit-evaluations',
+		publisherEntity: 'publisher'
 	},
 	feedback: {
 		feedbackApplication: 'feedback-application',
