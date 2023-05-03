@@ -535,7 +535,9 @@ export const Classes = {
 
 export const Actions = {
 	activities: {
-		selectCustomDateRange: 'select-custom-date-range'
+		selectCustomDateRange: 'select-custom-date-range',
+		discard: 'discard',
+		update: 'update'
 	},
 	alignments: {
 		removeAlignment: 'remove-alignment',
