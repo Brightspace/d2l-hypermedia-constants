@@ -384,6 +384,7 @@ export const Classes = {
 		aggregatedEvaluation: 'aggregated-evaluation',
 		explicitEvaluationEntity: 'explicit-evaluation-entity',
 		explicitEvaluations: 'explicit-evaluations',
+		explicitEvaluation: 'explicit-evaluation',
 		publisherEntity: 'publisher'
 	},
 	feedback: {
