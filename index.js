@@ -382,6 +382,7 @@ export const Classes = {
 	},
 	explicitEvaluations: {
 		aggregatedEvaluation: 'aggregated-evaluation',
+		explicitEvaluationCompleted: 'completed',
 		explicitEvaluationEntity: 'explicit-evaluation-entity',
 		explicitEvaluations: 'explicit-evaluations',
 		explicitEvaluation: 'explicit-evaluation',
