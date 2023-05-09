@@ -381,6 +381,7 @@ export const Classes = {
 		unpinned: 'unpinned'
 	},
 	explicitEvaluations: {
+		advancedAssessment: 'advanced-assessment',
 		aggregatedEvaluation: 'aggregated-evaluation',
 		explicitEvaluationCompleted: 'completed',
 		explicitEvaluationEntity: 'explicit-evaluation-entity',
