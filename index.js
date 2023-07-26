@@ -513,7 +513,7 @@ export const Classes = {
 		intent: 'intent',
 		intents: 'intents',
 		intentList: 'intent-list',
-		levelOfAchievement: 'level-of-achievment',
+		levelOfAchievement: 'level-of-achievement',
 		organizationIntentList: 'organization-intent-list',
 		outcome: 'outcome',
 		outcomes: 'outcomes',
