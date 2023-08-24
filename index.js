@@ -52,6 +52,8 @@ export const Rels = {
 	semesters: 'https://api.brightspace.com/rels/semesters',
 	sequence: 'https://api.brightspace.com/rels/sequence',
 	sorts: 'https://api.brightspace.com/rels/sorts',
+	specialization: 'https://api.brightspace.com/rels/specialization',
+	textblock: 'https://api.brightspace.com/rels/textblock',
 	thumbnailRegular: 'https://api.brightspace.com/rels/thumbnail#regular',
 	thumbnailSmall: 'https://api.brightspace.com/rels/thumbnail#small',
 	userProfile: 'https://api.brightspace.com/rels/user-profile',
