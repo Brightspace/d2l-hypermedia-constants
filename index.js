@@ -473,6 +473,9 @@ export const Classes = {
 		annotated: 'annotated',
 		richtext: 'richtext'
 	},
+	textblock: {
+		content: 'textblock-content'
+	},
 	users: {
 		profile: 'profile'
 	},
@@ -543,7 +546,10 @@ export const Actions = {
 	activities: {
 		selectCustomDateRange: 'select-custom-date-range',
 		discard: 'discard',
-		update: 'update'
+		update: 'update',
+		activityUsageCollection: {
+			startAddNewActivity: 'start-add-new-activity'
+		}
 	},
 	alignments: {
 		removeAlignment: 'remove-alignment',
@@ -660,6 +666,9 @@ export const Actions = {
 		commitChanges: 'commit-changes',
 		discardChanges: 'discard-changes',
 		selectCriterionCell: 'select-criterion-cell'
+	},
+	textblock: {
+		update: 'update-textblock-content'
 	},
 	tii: {
 		refresh: 'TurnitinRefresh',
