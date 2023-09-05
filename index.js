@@ -549,6 +549,9 @@ export const Actions = {
 		update: 'update',
 		activityUsageCollection: {
 			startAddNewActivity: 'start-add-new-activity'
+		},
+		instances: {
+			create: 'create-instance'
 		}
 	},
 	alignments: {
