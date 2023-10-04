@@ -23,6 +23,7 @@ export const Rels = {
 	filtersCollection: 'https://api.brightspace.com/rels/filters/collection',
 	firstName: 'https://api.brightspace.com/rels/first-name',
 	group: 'https://api.brightspace.com/rels/group',
+	initials: 'https://api.brightspace.com/rels/initials',
 	lastName: 'https://api.brightspace.com/rels/last-name',
 	learningObjectiveApplication: 'https://api.brightspace.com/rels/learning-objective-application',
 	lmsSource: 'https://api.brightspace.com/rels/lms-source',
