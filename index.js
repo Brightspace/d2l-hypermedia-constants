@@ -254,6 +254,7 @@ export const Rels = {
 		level: 'https://achievements.api.brightspace.com/rels/level'
 	},
 	Outcomes: {
+		availableAchievementScale: 'https://outcomes.api.brightspace.com/rels/loa',
 		intents: 'https://outcomes.api.brightspace.com/rels/intents',
 		intent: 'https://outcomes.api.brightspace.com/rels/intent',
 		outcome: 'https://outcomes.api.brightspace.com/rels/outcome'
@@ -513,6 +514,7 @@ export const Classes = {
 		selected: 'selected'
 	},
 	outcomes: {
+		availableAchievementScale: 'available-achievement-scale',
 		assessed: 'assessed',
 		demonstration: 'demonstration',
 		demonstratableLevel: 'demonstratable-level',
@@ -524,6 +526,7 @@ export const Classes = {
 		outcome: 'outcome',
 		outcomes: 'outcomes',
 		selected: 'selected',
+		setAchievementThreshold: 'set-achievement-threshold',
 		suggested: 'suggested'
 	},
 	meetings: {
