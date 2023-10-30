@@ -516,6 +516,7 @@ export const Classes = {
 	outcomes: {
 		availableAchievementScale: 'available-achievement-scale',
 		assessed: 'assessed',
+		clearAchievementThreshold: 'clear-achievement-threshold',
 		demonstration: 'demonstration',
 		demonstratableLevel: 'demonstratable-level',
 		intent: 'intent',
