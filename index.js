@@ -516,7 +516,6 @@ export const Classes = {
 	outcomes: {
 		availableAchievementScale: 'available-achievement-scale',
 		assessed: 'assessed',
-		clearAchievementThreshold: 'clear-achievement-threshold',
 		demonstration: 'demonstration',
 		demonstratableLevel: 'demonstratable-level',
 		intent: 'intent',
@@ -527,7 +526,6 @@ export const Classes = {
 		outcome: 'outcome',
 		outcomes: 'outcomes',
 		selected: 'selected',
-		setAchievementThreshold: 'set-achievement-threshold',
 		suggested: 'suggested'
 	},
 	meetings: {
@@ -663,9 +661,11 @@ export const Actions = {
 		setCatalogImage: 'set-catalog-image'
 	},
 	outcomes: {
+		clearAchievementThreshold: 'clear-achievement-threshold',
 		commitChanges: 'commit-changes',
 		discardChanges: 'discard-changes',
-		select: 'select'
+		select: 'select',
+		setAchievementThreshold: 'set-achievement-threshold'
 	},
 	quizzes: {
 		autoGrade: 'auto-grade'
