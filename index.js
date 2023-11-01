@@ -254,6 +254,7 @@ export const Rels = {
 		level: 'https://achievements.api.brightspace.com/rels/level'
 	},
 	Outcomes: {
+		availableAchievementScale: 'https://outcomes.api.brightspace.com/rels/loa',
 		intents: 'https://outcomes.api.brightspace.com/rels/intents',
 		intent: 'https://outcomes.api.brightspace.com/rels/intent',
 		outcome: 'https://outcomes.api.brightspace.com/rels/outcome'
@@ -513,6 +514,7 @@ export const Classes = {
 		selected: 'selected'
 	},
 	outcomes: {
+		availableAchievementScale: 'available-achievement-scale',
 		assessed: 'assessed',
 		demonstration: 'demonstration',
 		demonstratableLevel: 'demonstratable-level',
@@ -659,9 +661,11 @@ export const Actions = {
 		setCatalogImage: 'set-catalog-image'
 	},
 	outcomes: {
+		clearAchievementThreshold: 'clear-achievement-threshold',
 		commitChanges: 'commit-changes',
 		discardChanges: 'discard-changes',
-		select: 'select'
+		select: 'select',
+		setAchievementThreshold: 'set-achievement-threshold'
 	},
 	quizzes: {
 		autoGrade: 'auto-grade'
