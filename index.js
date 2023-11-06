@@ -611,8 +611,10 @@ export const Actions = {
 	evaluation: {
 		discard: 'discard',
 		discardAnnotations: 'RemoveAnnotations',
+		draftUpdate: 'draft-update',
 		publish: 'publish',
 		readyAggregate: 'ready-aggregate',
+		readyReview: 'ready-review',
 		restoreGrade: 'RestoreGrade',
 		retract: 'retract',
 		save: 'save',
