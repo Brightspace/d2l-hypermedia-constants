@@ -3,6 +3,7 @@ export const Rels = {
 	assessment: 'https://api.brightspace.com/rels/assessment',
 	assessorUser: 'https://api.brightspace.com/rels/assessor-user',
 	assignment: 'https://api.brightspace.com/rels/assignment',
+	assignmentNoMetrics: 'https://api.brightspace.com/rels/assignment#no-metrics',
 	cachePrimer: 'https://api.brightspace.com/rels/cache-primer',
 	color: 'https://api.brightspace.com/rels/color',
 	completion: 'https://api.brightspace.com/rels/completion',
