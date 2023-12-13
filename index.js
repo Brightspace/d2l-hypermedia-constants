@@ -299,6 +299,7 @@ export const Classes = {
 		potentialAssociation: 'potential-association',
 		published: 'Published',
 		singleAssociation: 'single-association',
+		unsaved: 'unsaved'
 	},
 	alignments: {
 		alignment: 'alignment',
