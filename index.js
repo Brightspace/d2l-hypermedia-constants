@@ -675,6 +675,7 @@ export const Actions = {
 		autoGrade: 'auto-grade'
 	},
 	rubrics: {
+		clearAssessment: 'clear-assessment',
 		commitChanges: 'commit-changes',
 		discardChanges: 'discard-changes',
 		selectCriterionCell: 'select-criterion-cell'
