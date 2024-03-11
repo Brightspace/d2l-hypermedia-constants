@@ -300,7 +300,9 @@ export const Classes = {
 		published: 'Published',
 		singleAssociation: 'single-association',
 		unsaved: 'unsaved',
-		removed: 'removed'
+	},
+	advancedAssessments: {
+		removed:'removed'
 	},
 	alignments: {
 		alignment: 'alignment',
