@@ -301,6 +301,9 @@ export const Classes = {
 		singleAssociation: 'single-association',
 		unsaved: 'unsaved'
 	},
+	advancedAssessments: {
+		removed:'removed'
+	},
 	alignments: {
 		alignment: 'alignment',
 		selected: 'selected',
