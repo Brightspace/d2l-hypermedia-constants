@@ -299,7 +299,7 @@ export const Classes = {
 		potentialAssociation: 'potential-association',
 		published: 'Published',
 		singleAssociation: 'single-association',
-		unsaved: 'unsaved',
+		unsaved: 'unsaved'
 	},
 	advancedAssessments: {
 		removed:'removed'
