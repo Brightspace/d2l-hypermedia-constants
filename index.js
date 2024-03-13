@@ -627,6 +627,7 @@ export const Actions = {
 		saveAnnotations: 'SaveAnnotations',
 		saveDraft: 'save-draft',
 		saveFeedback: 'SaveFeedback',
+		saveFeedbackExtra: 'SaveFeedbackExtra',
 		saveGrade: 'SaveGrade',
 		saveScore: 'SaveScore',
 		setActiveScoringRubric: 'SetActiveScoringRubric',
