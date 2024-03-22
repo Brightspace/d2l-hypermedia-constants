@@ -285,6 +285,7 @@ export const Classes = {
 		fileActivity: 'file-activity',
 		incomplete: 'incomplete',
 		questionActivity: 'question-activity',
+		questionAttemptActivity: 'attempt-question-activity',
 		questionVersionActivity: 'question-version-activity',
 		quizActivity: 'quiz-activity',
 		unevaluated: 'Unevaluated',
