@@ -87,6 +87,7 @@ export const Rels = {
 		nextPeriod: 'https://activities.api.brightspace.com/rels/next-period',
 		nextWeek: 'https://activities.api.brightspace.com/rels/next-week',
 		overdue: 'https://activities.api.brightspace.com/rels/overdue',
+		popout: 'https://activities.api.brightspace.com/rels/popout',
 		previousPeriod: 'https://activities.api.brightspace.com/rels/previous-period',
 		previousWeek: 'https://activities.api.brightspace.com/rels/previous-week',
 		publishersCandidates: 'https://activities.api.brightspace.com/rels/publisher-candidates',
@@ -196,6 +197,9 @@ export const Rels = {
 		identifier: 'https://questions.api.brightspace.com/rels/identifier',
 		itemBody: 'https://questions.api.brightspace.com/rels/item-body',
 		interaction: 'https://questions.api.brightspace.com/rels/interaction',
+		question: 'https://questions.api.brightspace.com/rels/question',
+		questionActivity: 'https://questions.api.brightspace.com/rels/question-activity',
+		questionResponse: 'https://questions.api.brightspace.com/rels/question-response',
 		responseDeclaration: 'https://questions.api.brightspace.com/rels/response-declaration'
 	},
 	// Quizzes API sub-domain rels
