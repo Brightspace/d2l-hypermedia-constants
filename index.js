@@ -176,6 +176,7 @@ export const Rels = {
 	// Folio API sub-domain rels
 	Folio: {
 		contentItem: 'https://folio.api.brightspace.com/rels/Content',
+		contentList: 'https://folio.api.brightspace.com/rels/ContentList',
 		commentList: 'https://folio.api.brightspace.com/rels/CommentList',
 		evidence: 'https://folio.api.brightspace.com/rels/Evidence',
 		folio: 'https://folio.api.brightspace.com/rels/folio',
