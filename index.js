@@ -1,6 +1,4 @@
 export const Rels = {
-	// rels with no domain (IANA)
-	self: 'self',
 	// default Brightspace domain rels
 	assessment: 'https://api.brightspace.com/rels/assessment',
 	assessorUser: 'https://api.brightspace.com/rels/assessor-user',
