@@ -84,6 +84,7 @@ export const Rels = {
 		myActivitiesEmpty: 'https://activities.api.brightspace.com/rels/my-activities#empty',
 		myActivityUsage: 'https://activities.api.brightspace.com/rels/my-activity-usage',
 		myUnassessedActivities: 'https://activities.api.brightspace.com/rels/my-unassessed-activities',
+		nextPage: 'https://activities.api.brightspace.com/rels/next-page',
 		nextPeriod: 'https://activities.api.brightspace.com/rels/next-period',
 		nextWeek: 'https://activities.api.brightspace.com/rels/next-week',
 		overdue: 'https://activities.api.brightspace.com/rels/overdue',
@@ -96,6 +97,7 @@ export const Rels = {
 		selectedPublishers: 'https://activities.api.brightspace.com/rels/selected-publisher-candidates',
 		user: 'https://activities.api.brightspace.com/rels/user',
 		userActivityUsage: 'https://activities.api.brightspace.com/rels/user-activity-usage',
+		userEnrollment: 'https://activities.api.brightspace.com/rels/user-enrollment',
 	},
 	// Assessments
 	Assessments: {
@@ -311,7 +313,14 @@ export const Classes = {
 		unsaved: 'unsaved'
 	},
 	advancedAssessments: {
-		removed:'removed'
+		evaluator: 'evaluator-candidate',
+		learner: 'learner-candidate',
+		learnerEvaluator: 'learner-evaluator',
+		publisher: 'publisher-candidate',
+		removed:'removed',
+		selectable: 'selectable',
+		selected: 'selected',
+		uncoveredEvaluator:'uncovered-section-evaluator'
 	},
 	alignments: {
 		alignment: 'alignment',
