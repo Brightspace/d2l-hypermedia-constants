@@ -216,7 +216,8 @@ export const Rels = {
 		quiz: 'https://quizzes.api.brightspace.com/rels/quiz',
 		section: 'https://quizzes.api.brightspace.com/rels/quiz-section',
 		studyRecommendations: 'https://quizzes.api.brightspace.com/rels/studyRecommendations',
-		timing: 'https://quizzes.api.brightspace.com/rels/timing'
+		timing: 'https://quizzes.api.brightspace.com/rels/timing',
+		viewSubmissionResults: 'https://quizzes.api.brightspace.com/rels/view-quiz-submission-results'
 	},
 	// Themes API sub-domain rels
 	Themes: {
