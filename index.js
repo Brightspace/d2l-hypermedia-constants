@@ -487,6 +487,7 @@ export const Classes = {
 		recommended: 'recommended',
 		section: 'section',
 		startDate: 'start-date',
+		studyRecommendations: 'study-recommendations',
 		timeLimitEnforced: 'time-limit-enforced',
 		notimelimit: 'notimelimit',
 		autosubmit: 'autosubmit',
