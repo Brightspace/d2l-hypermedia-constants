@@ -447,6 +447,7 @@ export const Classes = {
 		arithmetic: 'Arithmetic',
 		candidateResponse: 'candidate-response',
 		correctResponse: 'correct-response',
+		duplicateResponse: 'duplicate-response',
 		fillInTheBlank: 'FillInTheBlank',
 		itemGrading: 'item-grading',
 		longAnswer: 'LongAnswer',
