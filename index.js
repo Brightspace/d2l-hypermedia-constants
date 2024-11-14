@@ -201,10 +201,12 @@ export const Rels = {
 		identifier: 'https://questions.api.brightspace.com/rels/identifier',
 		itemBody: 'https://questions.api.brightspace.com/rels/item-body',
 		interaction: 'https://questions.api.brightspace.com/rels/interaction',
+		prompt: 'https://questions.api.brightspace.com/rels/prompt',
 		question: 'https://questions.api.brightspace.com/rels/question',
 		questionActivity: 'https://questions.api.brightspace.com/rels/question-activity',
 		questionResponse: 'https://questions.api.brightspace.com/rels/question-response',
-		responseDeclaration: 'https://questions.api.brightspace.com/rels/response-declaration'
+		responseDeclaration: 'https://questions.api.brightspace.com/rels/response-declaration',
+		text: 'https://questions.api.brightspace.com/rels/text'
 	},
 	// Quizzes API sub-domain rels
 	Quizzes: {
@@ -446,6 +448,7 @@ export const Classes = {
 		allOrNothing: 'AllOrNothing',
 		arithmetic: 'Arithmetic',
 		candidateResponse: 'candidate-response',
+		choiceInteraction: 'choice-interaction',
 		correctResponse: 'correct-response',
 		duplicateResponse: 'duplicate-response',
 		fillInTheBlank: 'FillInTheBlank',
