@@ -204,7 +204,9 @@ export const Rels = {
 		question: 'https://questions.api.brightspace.com/rels/question',
 		questionActivity: 'https://questions.api.brightspace.com/rels/question-activity',
 		questionResponse: 'https://questions.api.brightspace.com/rels/question-response',
-		responseDeclaration: 'https://questions.api.brightspace.com/rels/response-declaration'
+		responseDeclaration: 'https://questions.api.brightspace.com/rels/response-declaration',
+		text: 'https://questions.api.brightspace.com/rels/text',
+		prompt: 'https://questions.api.brightspace.com/rels/prompt'
 	},
 	// Quizzes API sub-domain rels
 	Quizzes: {
@@ -446,6 +448,7 @@ export const Classes = {
 		allOrNothing: 'AllOrNothing',
 		arithmetic: 'Arithmetic',
 		candidateResponse: 'candidate-response',
+		choiceInteraction: 'choice-interaction',
 		correctResponse: 'correct-response',
 		fillInTheBlank: 'FillInTheBlank',
 		itemGrading: 'item-grading',
