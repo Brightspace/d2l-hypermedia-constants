@@ -464,6 +464,7 @@ export const Classes = {
 		pointsPerBlank: 'PointsPerBlank',
 		questionText: 'questionText',
 		retaken: 'retaken',
+		sfIncorrect: 'sf-incorrect',
 		selected: 'selected',
 		shortAnswer: 'ShortAnswer',
 		significantFigures: 'SignificantFigures',
