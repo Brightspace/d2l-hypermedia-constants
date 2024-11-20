@@ -446,6 +446,7 @@ export const Classes = {
 	},
 	questions: {
 		allOrNothing: 'AllOrNothing',
+		answer: 'answer',
 		arithmetic: 'Arithmetic',
 		candidateResponse: 'candidate-response',
 		choiceInteraction: 'choice-interaction',
@@ -472,6 +473,7 @@ export const Classes = {
 		text: 'text',
 		textEntryInteraction: 'text-entry-interaction',
 		trueFalse: 'TrueFalse',
+		units: 'units',
 		value: 'value'
 	},
 	quizzes: {
