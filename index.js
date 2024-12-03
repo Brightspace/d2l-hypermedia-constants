@@ -548,7 +548,8 @@ export const Classes = {
 		overridden: 'overridden',
 		percentage: 'percentage',
 		published: 'published',
-		selected: 'selected'
+		selected: 'selected',
+		text: 'text'
 	},
 	outcomes: {
 		availableAchievementScale: 'available-achievement-scale',
