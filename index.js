@@ -94,6 +94,7 @@ export const Rels = {
 		previousWeek: 'https://activities.api.brightspace.com/rels/previous-week',
 		publishersCandidates: 'https://activities.api.brightspace.com/rels/publisher-candidates',
 		removedEvaluator: 'https://activities.api.brightspace.com/rels/removed-evaluator',
+		selectedEvaluatorCandidates: 'https://activities.api.brightspace.com/rels/selected-evaluator-candidates',
 		selectedEvaluators: 'https://activities.api.brightspace.com/rels/selected-evaluators',
 		selectedEvaluatorsWithLearnerStats: 'https://activities.api.brightspace.com/rels/selected-evaluators-with-learner-stats',
 		selectedPublishers: 'https://activities.api.brightspace.com/rels/selected-publisher-candidates',
