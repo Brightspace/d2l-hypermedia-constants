@@ -374,6 +374,7 @@ export const Classes = {
 	},
 	content: {
 		content: 'content',
+		description: 'description',
 		sequence: 'sequence',
 		sequencedActivity: 'sequenced-activity',
 		sequenceDescription: 'sequence-description',
