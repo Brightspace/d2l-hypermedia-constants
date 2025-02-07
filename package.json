@@ -11,7 +11,7 @@
   },
   "homepage": "https://github.com/Brightspace/d2l-hypermedia-constants#readme",
   "name": "d2l-hypermedia-constants",
-  "version": "6.140.0",
+  "version": "6.141.0",
   "main": "dist/index.js",
   "module": "index.js",
   "files": [
