@@ -41,6 +41,7 @@ export const Rels = {
 	organizations: 'https://api.brightspace.com/rels/organizations',
 	orgDefinedId: 'https://api.brightspace.com/rels/org-defined-id',
 	pager: 'https://api.brightspace.com/rels/pager',
+	parent: 'https://api.brightspace.com/rels/parent',
 	parentSemester: 'https://api.brightspace.com/rels/parent-semester',
 	profileImage: 'https://api.brightspace.com/rels/profile-image',
 	questionsGroupApplication: 'https://api.brightspace.com/rels/questions-group-application',
@@ -80,6 +81,7 @@ export const Rels = {
 		explicitEvaluation: 'https://activities.api.brightspace.com/rels/explicit-evaluation',
 		feedback: 'https://activities.api.brightspace.com/rels/feedback',
 		feedbackAttachments: 'https://activities.api.brightspace.com/rels/attachments',
+		iteratorEvaluationApplication: 'https://activities.api.brightspace.com/rels/iterator-evaluation-application',
 		learnerCandidates:'https://activities.api.brightspace.com/rels/learner-candidates',
 		myActivities: 'https://activities.api.brightspace.com/rels/my-activities',
 		myActivitiesEmpty: 'https://activities.api.brightspace.com/rels/my-activities#empty',
@@ -483,6 +485,7 @@ export const Classes = {
 	},
 	quizzes: {
 		actorQuizActivity: 'actor-quiz-activity',
+		actorQuizAttemptActivity: 'actor-quiz-attempt-activity',
 		attempts: 'attempts',
 		autograded: 'auto-graded',
 		description: 'description',
