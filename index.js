@@ -632,6 +632,11 @@ export const Actions = {
 		skipSubscribeToParentNotifications: 'skip-subscribe-to-parent-notifications',
 		unsubscribeToParentNotifications: 'unsubscribe-to-parent-notifications'
 	},
+	discussions: {
+	  threads: {
+		  markRead: 'mark-thread-read'
+	  }
+	},
 	enrollments: {
 		addDepartmentFilter: 'add-department-filter',
 		addSemesterFilter: 'add-semester-filter',
