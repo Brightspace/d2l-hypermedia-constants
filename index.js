@@ -500,6 +500,7 @@ export const Classes = {
 		quiz: 'quiz',
 		quizAttempt: 'quiz-attempt',
 		quizAttemptList: 'quiz-attempt-list',
+		quizAttemptRetaken: 'retaken',
 		recommended: 'recommended',
 		section: 'section',
 		startDate: 'start-date',
