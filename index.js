@@ -722,7 +722,9 @@ export const Actions = {
 		setAchievementThreshold: 'set-achievement-threshold'
 	},
 	quizzes: {
-		autoGrade: 'auto-grade'
+		autoGrade: 'auto-grade',
+		resubmitReopenedAttempt: 'resubmit-reopened-attempt',
+		updateReopenedAttemptExtraTime: 'update-reopened-attempt-extra-time'
 	},
 	rubrics: {
 		commitChanges: 'commit-changes',
