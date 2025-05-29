@@ -73,6 +73,7 @@ export const Rels = {
 		activityUsage: 'https://activities.api.brightspace.com/rels/activity-usage',
 		actorActivityUsage: 'https://activities.api.brightspace.com/rels/actor-activity-usage',
 		advancedAssessment: 'https://activities.api.brightspace.com/rels/advanced-assessment',
+		assignedActivities: 'https://activities.api.brightspace.com/rels/assigned-activities',
 		assignedActivity: 'https://activities.api.brightspace.com/rels/assigned-activity',
 		associations: 'https://activities.api.brightspace.com/rels/associations',
 		evaluation: 'https://activities.api.brightspace.com/rels/evaluation',
