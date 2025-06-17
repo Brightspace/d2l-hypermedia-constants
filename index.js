@@ -202,7 +202,7 @@ export const Rels = {
 		grade: 'https://grades.api.brightspace.com/rels/grade',
 		userGrade: 'https://grades.api.brightspace.com/rels/user-grade',
 		weight: 'https://grades.api.brightspace.com/rels/weight',
-		userEnrollmentGrades: 'https://grades.api.brightspace.com/rels/user-enrollment-grades'
+		userCourseGrades: 'https://grades.api.brightspace.com/rels/user-course-grades'
 	},
 	// Questions API sub-domain rels
 	Questions: {
