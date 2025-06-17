@@ -76,6 +76,7 @@ export const Rels = {
 		assignedActivities: 'https://activities.api.brightspace.com/rels/assigned-activities',
 		assignedActivity: 'https://activities.api.brightspace.com/rels/assigned-activity',
 		associations: 'https://activities.api.brightspace.com/rels/associations',
+		childUserActivityUsage: 'https://activities.api.brightspace.com/rels/child-user-activity-usage',
 		evaluation: 'https://activities.api.brightspace.com/rels/evaluation',
 		evaluationStatus: 'https://activities.api.brightspace.com/rels/evaluation-status',
 		evaluatorCandidates: 'https://activities.api.brightspace.com/rels/evaluator-candidates',
@@ -104,8 +105,7 @@ export const Rels = {
 		selectedPublishers: 'https://activities.api.brightspace.com/rels/selected-publisher-candidates',
 		user: 'https://activities.api.brightspace.com/rels/user',
 		userActivityUsage: 'https://activities.api.brightspace.com/rels/user-activity-usage',
-		userEnrollment: 'https://activities.api.brightspace.com/rels/user-enrollment',
-		childUserActivityUsage: 'https://activities.api.brightspace.com/rels/child-user-activity-usage'
+		userEnrollment: 'https://activities.api.brightspace.com/rels/user-enrollment'
 	},
 	// Assessments
 	Assessments: {
@@ -201,11 +201,12 @@ export const Rels = {
 		comments: 'https://grades.api.brightspace.com/rels/comments',
 		description: 'https://grades.api.brightspace.com/rels/description',
 		grade: 'https://grades.api.brightspace.com/rels/grade',
-		userGrade: 'https://grades.api.brightspace.com/rels/user-grade',
-		weight: 'https://grades.api.brightspace.com/rels/weight',
-		userCourseGrades: 'https://grades.api.brightspace.com/rels/user-course-grades',
+		myFinalGrade: 'https://grades.api.brightspace.com/rels/my-final-grade',
 		myGrades: 'https://grades.api.brightspace.com/rels/my-grades',
-		myFinalGrade: 'https://grades.api.brightspace.com/rels/my-final-grade'
+		userCourseGrades: 'https://grades.api.brightspace.com/rels/user-course-grades',
+		userGrade: 'https://grades.api.brightspace.com/rels/user-grade',
+		weight: 'https://grades.api.brightspace.com/rels/weight'
+		
 	},
 	// Questions API sub-domain rels
 	Questions: {
@@ -240,17 +241,17 @@ export const Rels = {
 	},
 	// Notifications API sub-domain rels
 	Notifications: {
-		settings: 'https://notifications.api.brightspace.com/rels/settings',
-		subscriptions: 'https://notifications.api.brightspace.com/rels/subscriptions',
 		digest: 'https://digest.api.brightspace.com/rels/digest',
 		emailSettings: 'https://notifications.api.brightspace.com/rels/email-settings',
-		smsSettings: 'https://notifications.api.brightspace.com/rels/sms-settings',
-		gateways: 'https://notifications.api.brightspace.com/rels/gateways',
 		gateway: 'https://notifications.api.brightspace.com/rels/gateway',
+		gateways: 'https://notifications.api.brightspace.com/rels/gateways',
+		myNotifications: 'https://notifications.api.brightspace.com/rels/my-notifications',
 		organizationNotifications: 'https://notifications.api.brightspace.com/rels/organization-notifications',
+		settings: 'https://notifications.api.brightspace.com/rels/settings',
+		smsSettings: 'https://notifications.api.brightspace.com/rels/sms-settings',
+		subscriptions: 'https://notifications.api.brightspace.com/rels/subscriptions',
 		updates: 'https://notifications.api.brightspace.com/rels/updates',
-		updatesSource: 'https://notifications.api.brightspace.com/rels/updates-source',
-		myNotifications: 'https://notifications.api.brightspace.com/rels/my-notifications'
+		updatesSource: 'https://notifications.api.brightspace.com/rels/updates-source'
 	},
 	// Rubrics API sub-domain rels
 	Rubrics: {
