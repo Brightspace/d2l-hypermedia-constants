@@ -105,6 +105,7 @@ export const Rels = {
 		user: 'https://activities.api.brightspace.com/rels/user',
 		userActivityUsage: 'https://activities.api.brightspace.com/rels/user-activity-usage',
 		userEnrollment: 'https://activities.api.brightspace.com/rels/user-enrollment',
+		childUserActivityUsage: 'https://activities.api.brightspace.com/rels/child-user-activity-usage'
 	},
 	// Assessments
 	Assessments: {
@@ -202,7 +203,9 @@ export const Rels = {
 		grade: 'https://grades.api.brightspace.com/rels/grade',
 		userGrade: 'https://grades.api.brightspace.com/rels/user-grade',
 		weight: 'https://grades.api.brightspace.com/rels/weight',
-		userCourseGrades: 'https://grades.api.brightspace.com/rels/user-course-grades'
+		userCourseGrades: 'https://grades.api.brightspace.com/rels/user-course-grades',
+		myGrades: 'https://grades.api.brightspace.com/rels/my-grades',
+		myFinalGrade: 'https://grades.api.brightspace.com/rels/my-final-grade'
 	},
 	// Questions API sub-domain rels
 	Questions: {
@@ -246,7 +249,8 @@ export const Rels = {
 		gateway: 'https://notifications.api.brightspace.com/rels/gateway',
 		organizationNotifications: 'https://notifications.api.brightspace.com/rels/organization-notifications',
 		updates: 'https://notifications.api.brightspace.com/rels/updates',
-		updatesSource: 'https://notifications.api.brightspace.com/rels/updates-source'
+		updatesSource: 'https://notifications.api.brightspace.com/rels/updates-source',
+		myNotifications: 'https://notifications.api.brightspace.com/rels/my-notifications'
 	},
 	// Rubrics API sub-domain rels
 	Rubrics: {
