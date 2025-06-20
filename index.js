@@ -163,7 +163,8 @@ export const Rels = {
 	// Parents API sub-domain rels
 	Parents: {
 		allChildren: 'https://parents.api.brightspace.com/rels/all-my-children',
-		viewAsParent: 'https://parents.api.brightspace.com/rels/view-as-parent'
+		viewAsParent: 'https://parents.api.brightspace.com/rels/view-as-parent',
+		weeklyDigestPreview: 'https://parents.api.brightspace.com/rels/weekly-digest-preview'
 	},
 	// Discussions API sub-domain rels
 	Discussions: {
