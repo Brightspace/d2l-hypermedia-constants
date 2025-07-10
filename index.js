@@ -206,6 +206,7 @@ export const Rels = {
 		myGrades: 'https://grades.api.brightspace.com/rels/my-grades',
 		userCourseGrades: 'https://grades.api.brightspace.com/rels/user-course-grades',
 		userGrade: 'https://grades.api.brightspace.com/rels/user-grade',
+		userFinalGrade: 'https://grades.api.brightspace.com/rels/user-final-grade',
 		weight: 'https://grades.api.brightspace.com/rels/weight'
 		
 	},
