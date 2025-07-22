@@ -647,6 +647,9 @@ export const Actions = {
 	discussions: {
 	  threads: {
 		  markRead: 'mark-thread-read'
+	  },
+	  posts: {
+		  markRead: 'mark-post-read'
 	  }
 	},
 	enrollments: {
