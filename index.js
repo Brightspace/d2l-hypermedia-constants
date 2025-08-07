@@ -471,6 +471,7 @@ export const Classes = {
 		correctResponse: 'correct-response',
 		duplicateResponse: 'duplicate-response',
 		fillInTheBlank: 'FillInTheBlank',
+		hotspot: 'Hotspot',
 		itemGrading: 'item-grading',
 		longAnswer: 'LongAnswer',
 		matching: 'Matching',
