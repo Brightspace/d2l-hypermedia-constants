@@ -208,7 +208,6 @@ export const Rels = {
 		userGrade: 'https://grades.api.brightspace.com/rels/user-grade',
 		userFinalGrade: 'https://grades.api.brightspace.com/rels/user-final-grade',
 		weight: 'https://grades.api.brightspace.com/rels/weight'
-		
 	},
 	// Questions API sub-domain rels
 	Questions: {
@@ -483,6 +482,7 @@ export const Classes = {
 		ordering: 'Ordering',
 		pointsPerBlank: 'PointsPerBlank',
 		questionText: 'questionText',
+		random: 'RandomQuestion',
 		retaken: 'retaken',
 		sfIncorrect: 'sf-incorrect',
 		selected: 'selected',
