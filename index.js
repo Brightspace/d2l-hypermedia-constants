@@ -309,6 +309,7 @@ export const Classes = {
 		discussionActivity: 'discussion-activity',
 		empty: 'empty',
 		exempt: 'exempt',
+		exempted: 'exempted',
 		feedbackDate: 'feedback-date',
 		fileActivity: 'file-activity',
 		incomplete: 'incomplete',
@@ -332,6 +333,8 @@ export const Classes = {
 		unsaved: 'unsaved'
 	},
 	advancedAssessments: {
+		actorCandidate: 'actor-candidate',
+		actorEvaluator: 'actor-evaluator',
 		evaluator: 'evaluator-candidate',
 		learner: 'learner-candidate',
 		learnerEvaluator: 'learner-evaluator',
