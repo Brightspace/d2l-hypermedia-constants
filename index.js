@@ -84,6 +84,7 @@ export const Rels = {
 		explicitEvaluation: 'https://activities.api.brightspace.com/rels/explicit-evaluation',
 		feedback: 'https://activities.api.brightspace.com/rels/feedback',
 		feedbackAttachments: 'https://activities.api.brightspace.com/rels/attachments',
+		groupCandidates: 'https://activities.api.brightspace.com/rels/group-candidates',
 		iteratorEvaluationApplication: 'https://activities.api.brightspace.com/rels/iterator-evaluation-application',
 		learnerCandidates:'https://activities.api.brightspace.com/rels/learner-candidates',
 		myActivities: 'https://activities.api.brightspace.com/rels/my-activities',
