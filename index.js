@@ -336,6 +336,7 @@ export const Classes = {
 	advancedAssessments: {
 		actorCandidate: 'actor-candidate',
 		actorEvaluator: 'actor-evaluator',
+		advancedAssessment: 'advanced-assessment',
 		evaluator: 'evaluator-candidate',
 		learner: 'learner-candidate',
 		learnerEvaluator: 'learner-evaluator',
@@ -343,6 +344,7 @@ export const Classes = {
 		removed:'removed',
 		selectable: 'selectable',
 		selected: 'selected',
+		sharedEvaluations: 'shared-evaluation',
 		uncoveredEvaluator:'uncovered-section-evaluator'
 	},
 	alignments: {
