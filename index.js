@@ -338,6 +338,7 @@ export const Classes = {
 		actorEvaluator: 'actor-evaluator',
 		advancedAssessment: 'advanced-assessment',
 		evaluator: 'evaluator-candidate',
+		inFilteredSection:'in-filtered-section',
 		learner: 'learner-candidate',
 		learnerEvaluator: 'learner-evaluator',
 		publisher: 'publisher-candidate',
