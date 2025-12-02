@@ -345,7 +345,8 @@ export const Classes = {
 		selectable: 'selectable',
 		selected: 'selected',
 		sharedEvaluations: 'shared-evaluation',
-		uncoveredEvaluator:'uncovered-section-evaluator'
+		uncoveredEvaluator:'uncovered-section-evaluator',
+		inFilteredSection:'in-filtered-section'
 	},
 	alignments: {
 		alignment: 'alignment',
