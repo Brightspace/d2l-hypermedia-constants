@@ -84,6 +84,7 @@ export const Rels = {
 		explicitEvaluation: 'https://activities.api.brightspace.com/rels/explicit-evaluation',
 		feedback: 'https://activities.api.brightspace.com/rels/feedback',
 		feedbackAttachments: 'https://activities.api.brightspace.com/rels/attachments',
+		groupCandidates: 'https://activities.api.brightspace.com/rels/group-candidates',
 		iteratorEvaluationApplication: 'https://activities.api.brightspace.com/rels/iterator-evaluation-application',
 		learnerCandidates:'https://activities.api.brightspace.com/rels/learner-candidates',
 		myActivities: 'https://activities.api.brightspace.com/rels/my-activities',
@@ -208,7 +209,6 @@ export const Rels = {
 		userGrade: 'https://grades.api.brightspace.com/rels/user-grade',
 		userFinalGrade: 'https://grades.api.brightspace.com/rels/user-final-grade',
 		weight: 'https://grades.api.brightspace.com/rels/weight'
-
 	},
 	// Questions API sub-domain rels
 	Questions: {
@@ -310,6 +310,7 @@ export const Classes = {
 		discussionActivity: 'discussion-activity',
 		empty: 'empty',
 		exempt: 'exempt',
+		exempted: 'exempted',
 		feedbackDate: 'feedback-date',
 		fileActivity: 'file-activity',
 		incomplete: 'incomplete',
@@ -333,13 +334,18 @@ export const Classes = {
 		unsaved: 'unsaved'
 	},
 	advancedAssessments: {
+		actorCandidate: 'actor-candidate',
+		actorEvaluator: 'actor-evaluator',
+		advancedAssessment: 'advanced-assessment',
 		evaluator: 'evaluator-candidate',
+		inFilteredSection:'in-filtered-section',
 		learner: 'learner-candidate',
 		learnerEvaluator: 'learner-evaluator',
 		publisher: 'publisher-candidate',
 		removed:'removed',
 		selectable: 'selectable',
 		selected: 'selected',
+		sharedEvaluations: 'shared-evaluation',
 		uncoveredEvaluator:'uncovered-section-evaluator'
 	},
 	alignments: {
@@ -483,6 +489,7 @@ export const Classes = {
 		ordering: 'Ordering',
 		pointsPerBlank: 'PointsPerBlank',
 		questionText: 'questionText',
+		random: 'RandomQuestion',
 		retaken: 'retaken',
 		sfIncorrect: 'sf-incorrect',
 		selected: 'selected',
