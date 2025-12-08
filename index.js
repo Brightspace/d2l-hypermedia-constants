@@ -208,7 +208,7 @@ export const Rels = {
 		userGrade: 'https://grades.api.brightspace.com/rels/user-grade',
 		userFinalGrade: 'https://grades.api.brightspace.com/rels/user-final-grade',
 		weight: 'https://grades.api.brightspace.com/rels/weight'
-		
+
 	},
 	// Questions API sub-domain rels
 	Questions: {
@@ -737,6 +737,7 @@ export const Actions = {
 	},
 	quizzes: {
 		autoGrade: 'auto-grade',
+		resetAttemptSessionRestriction: 'reset-attempt-session-restriction',
 		resubmitReopenedAttempt: 'resubmit-reopened-attempt',
 		updateReopenedAttemptExtraTime: 'update-reopened-attempt-extra-time'
 	},
