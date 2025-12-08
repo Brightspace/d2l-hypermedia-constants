@@ -744,6 +744,7 @@ export const Actions = {
 	},
 	quizzes: {
 		autoGrade: 'auto-grade',
+		resetAttemptSessionRestriction: 'reset-attempt-session-restriction',
 		resubmitReopenedAttempt: 'resubmit-reopened-attempt',
 		updateReopenedAttemptExtraTime: 'update-reopened-attempt-extra-time'
 	},
