@@ -444,7 +444,8 @@ export const Classes = {
 		explicitEvaluation: 'explicit-evaluation',
 		publisherEntity: 'publisher',
 		evaluatorEntity: 'evaluator',
-		evaluatorRemoved: 'evaluator-removed'
+		evaluatorRemoved: 'evaluator-removed',
+		targetedEvaluation: 'targeted-evaluation'
 	},
 	feedback: {
 		feedbackApplication: 'feedback-application',
