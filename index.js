@@ -513,6 +513,7 @@ export const Classes = {
 		endSection: 'end-section',
 		enforced: 'enforced',
 		evidenceEntity: 'evidence-entity',
+		isIncorrect: 'incorrect',
 		overallGradeCalculationType: 'overall-grade-calculation-type',
 		questionPool: 'question-pool',
 		questionResponse: 'question-response',
