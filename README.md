@@ -40,11 +40,11 @@ console.log(D2L.Hypermedia.Rels);
 </script>
 ```
 
-## Versioning & Releasing
+## Versioning and Releasing
 
-The [incremental-release GitHub Action](https://github.com/BrightspaceUI/actions/tree/main/incremental-release) is called from the `release.yml` GitHub Action workflow to handle version changes and releasing.
+This repo is configured to use `semantic-release`. Commits prefixed with `fix:` and `feat:` will trigger patch and minor releases when merged to `master`.
 
-When a PR is merged, a minor version bump will happen automatically, a release will be created, and the new version will be published to NPM.
+To learn how to create major releases and release from maintenance branches, refer to the [semantic-release GitHub Action](https://github.com/BrightspaceUI/actions/tree/main/semantic-release) documentation.
 
 ## Coding styles
 
